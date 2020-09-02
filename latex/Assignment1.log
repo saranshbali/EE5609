@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  2 SEP 2020 16:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  2 SEP 2020 17:02
 entering extended mode
 **./Assignment1.tex
 (Assignment1.tex
@@ -145,12 +145,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (Assignment1.aux) ) 
 Here is how much of TeX's memory you used:
  1599 strings out of 480790
- 20539 string characters out of 2897302
+ 20527 string characters out of 2897302
  255042 words of memory out of 3000000
  17647 multiletter control sequences out of 15000+200000
  534691 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,8n,31p,461b,156s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 30i,8n,31p,462b,156s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmbx10.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Neeru/AppData/Local/Programs/MiK
@@ -158,7 +158,7 @@ TeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Neeru/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Neeru/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Neeru/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Assignment1.pdf (1 page, 69122 bytes).
+Output written on Assignment1.pdf (1 page, 69120 bytes).
 PDF statistics:
  30 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
