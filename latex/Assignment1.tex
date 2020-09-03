@@ -15,20 +15,20 @@
 	 +1\\-3\\-5 
 \end{pmatrix}$ and $\begin{pmatrix} 
 +3\\-4\\-4 
-\end{pmatrix}$ form the vertices of a right angled triangle.
+\end{pmatrix}$ form the vertices of a right angled trianle.
 \end{question}
-Solution. Let $v1$, $v2$ and $v3$ be given vectors such that $v1 =\begin{pmatrix} 
+Solution. Let $A$, $B$ and $C$ be given vectors such that $A =\begin{pmatrix} 
 	+2\\-1\\+1 
 \end{pmatrix}$,\\     
-$v2= \begin{pmatrix} 
+$B= \begin{pmatrix} 
 +1\\-3\\-5 
-\end{pmatrix}$ and $v3= \begin{pmatrix} 
+\end{pmatrix}$ and $C= \begin{pmatrix} 
 +3\\-4\\-4 
 \end{pmatrix}$.\\
-To show that $v1$, $v2$ and $v3$ form the vertices of a right anled triangle. First we need to show that $v1$, $v2$ and $v3$ are indeed vertices of a triangle.\\
-For this we need to see if the vertices satisfy trianle inequality. Let $a$, $b$ and $c$ denote the length of vertices $v1-v2$, $v2-v3$ and $v3-v1$. Now,\\
+To show that $A$, $B$ and $C$ form the vertices of a right angled triangle. First we need to show that $A$, $B$ and $C$ are indeed vertices of a triangle.\\
+For this we need to see if the vertices satisfy triangle inequality. Let $a$, $b$ and $c$ denote the length of vectors $\overrightarrow{A-B}$, $\overrightarrow{B-C}$ and $\overrightarrow{C-A}$. Now,\\
 $a=\sqrt{41}$, $b=\sqrt{6}$ and $c=\sqrt{35}$. We can see that  $a+b>c$, 
-$a+c>b$ and $b+c >a$. Thus, the given vertices $v1$, $v2$ and $v3$ form the vertices of a triangle. Let vertices $v1$, $v2$ and $v3$ be represented as A, B and C respectively.\\
+$a+c>b$ and $b+c >a$. Thus, the given vectors $A$, $B$ and $C$ form the vertices of a triangle.\\
 
 
  \begin{figure}[!htb]
@@ -37,7 +37,22 @@ $a+c>b$ and $b+c >a$. Thus, the given vertices $v1$, $v2$ and $v3$ form the vert
 	\caption{\label{fig1}}
 \end{figure}
 
-Also triangle formed by A,B and C is ploted in Figure 1, as seen $\triangle ABC$ is right angled at C. This is because $<A-C, B-C>$ which is equal to $(A-C)^T(B-C) $ is indeed $=0$. This means (A-C)$\perp$(B-C). Thus, proving that $\triangle$ABC is right angled triangle at C.
+To prove, the $\triangle ABC$ is a right triangle, we need to calculate the inner product of all the below vectors and check if any one of them is 0.:
+\begin{enumerate}[1.]
+	\item $\langle \overrightarrow{A-C}  ,\overrightarrow{B-C}\rangle$ = $\overrightarrow{(A-C)}^T$ $\overrightarrow{(B-C)}$ = $(-1\;\; 3 \;\; 5)$ $\begin{pmatrix} 
+		-2\\+1\\-1 
+	\end{pmatrix}$ = 0
+\end{enumerate}
+\begin{enumerate}[2.]
+	\item $\langle \overrightarrow{A-B}  ,\overrightarrow{C-B}\rangle$ = $\overrightarrow{(A-B)}^T$ $\overrightarrow{(C-B)}$ = $(1\;\; 2 \;\; 6)$ $\begin{pmatrix} 
+		+2\\-1\\+1 
+	\end{pmatrix}$ = 6
+\end{enumerate}
 
-
+\begin{enumerate}[3.]
+	\item $\langle \overrightarrow{B-A}  ,\overrightarrow{C-A}\rangle$ = $\overrightarrow{(B-A)}^T$ $\overrightarrow{(C-A)}$ = $(-1\;\; -2 \;\; -6)$ $\begin{pmatrix} 
+		+1\\-3\\-5 
+	\end{pmatrix}$ = 35
+\end{enumerate}
+Clearly, from $(1).$ we can see that $\triangle$ABC is right angled at C.
 \end{document}
