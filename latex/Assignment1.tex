@@ -7,6 +7,8 @@
 \newtheorem{theorem}{Theorem}
 \newtheorem{question}[theorem]{Question}
 \newtheorem{answer}[theorem]{Solution}
+\newcommand{\vect}[1]{\boldsymbol{\vec{#1}}}
+\newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
 \begin{document}
 \begin{question}
 	Show that the vectors $\begin{pmatrix} 
@@ -17,18 +19,18 @@
 +3\\-4\\-4 
 \end{pmatrix}$ form the vertices of a right angled triangle.
 \end{question}
-Solution. Let $\vec{A}$,$\vec{B}$  and $\vec{C}$ be given vectors such that $\vec{A} =\begin{pmatrix} 
+Solution. Let $\vect{A}$,$\vect{B}$  and $\vect{C}$ be given vectors such that $\vect{A} =\begin{pmatrix} 
 	+2\\-1\\+1 
 \end{pmatrix}$,\\     
-$\vec{B}= \begin{pmatrix} 
+$\vect{B}= \begin{pmatrix} 
 +1\\-3\\-5 
-\end{pmatrix}$ and $\vec{C}= \begin{pmatrix} 
+\end{pmatrix}$ and $\vect{C}= \begin{pmatrix} 
 +3\\-4\\-4 
 \end{pmatrix}$.\\
-To show that $\vec{A}$, $\vec{B}$ and $\vec{C}$ form the vertices of a right angled triangle. First we need to show that $\vec{A}$, $\vec{B}$ and $\vec{C}$ are indeed vertices of a triangle.\\
-For this we need to see if the vertices satisfy triangle inequality. Let $a$, $b$ and $c$ denote the length of vectors $\vec{A}- \vec{B}$, $\vec{B}-\vec{C}$ and $\vec{C}- \vec{A}$. Now,\\
+To show that $\vect{A}$, $\vect{B}$ and $\vect{C}$ form the vertices of a right angled triangle. First we need to show that $\vect{A}$, $\vect{B}$ and $\vect{C}$ are indeed vertices of a triangle.\\
+For this we need to see if the vertices satisfy triangle inequality. Let $a$, $b$ and $c$ denote the length of vectors $(\vect{A}- \vect{B})$, $(\vect{B}-\vect{C})$ and $(\vect{C}- \vect{A})$. Now,\\
 $a=\sqrt{41}$, $b=\sqrt{6}$ and $c=\sqrt{35}$. We can see that  $a+b>c$, 
-$a+c>b$ and $b+c >a$. Thus, the given vectors $\vec{A}$, $\vec{B}$ and $\vec{C}$ form the vertices of a triangle.\\
+$a+c>b$ and $b+c >a$. Thus, the given vectors $\vect{A}$, $\vect{B}$ and $\vect{C}$ form the vertices of a triangle.\\
 
 \begin{figure}[!htb]
 	
@@ -43,22 +45,16 @@ $a+c>b$ and $b+c >a$. Thus, the given vectors $\vec{A}$, $\vec{B}$ and $\vec{C}$
 \end{figure}
 
 To prove, the $\triangle ABC$ is a right triangle, we need to calculate the inner product of all the below vectors and check if any one of them is 0.:
-\begin{enumerate}[1.]
-	\item $\langle \vec{A}-\vec{C}   ,\vec{B}-\vec{C}\rangle$ = $(\vec{A} -\vec{C})^T (\vec{B}-\vec{C})$ = $(-1\;\; 3 \;\; 5)$ $\begin{pmatrix} 
-		-2\\+1\\-1 
-	\end{pmatrix}$ = 0
-\end{enumerate}
-\begin{enumerate}[2.]
-	\item $\langle \vec{A}-\vec{B}   ,\vec{C}-\vec{B}\rangle$ = $(\vec{A} -\vec{B})^T (\vec{C}-\vec{B})$
-	 = $(1\;\; 2 \;\; 6)$ $\begin{pmatrix} 
-		+2\\-1\\+1 
-	\end{pmatrix}$ = 6
-\end{enumerate}
+\begin{align}
+	\langle \vect{A}-\vect{C}   ,\vect{B}-\vect{C}\rangle = (\vect{A} -\vect{C})^T (\vect{B}-\vect{C}) = (-1\;\; +3 \;\; +5) \myvec{-2 \\ +1 \\ -1}  = 0
+\end{align}
+\begin{align}
+    \langle \vect{A}-\vect{B}   ,\vect{C}-\vect{B}\rangle = (\vect{A} -\vect{B})^T (\vect{C}-\vect{B})
+	 = (+1\;\; +2 \;\; +6) \myvec{+2 \\ -1 \\ +1} = 6 
+\end{align}
+\begin{align}
+	\langle \vect{B}-\vect{A}   ,\vect{C}-\vect{A}\rangle = (\vect{B} -\vect{A})^T (\vect{C}-\vect{A}) = (-1\;\; -2 \;\; -6) \myvec{+1\\-3\\-5} = 35 
+\end{align}
 
-\begin{enumerate}[3.]
-	\item $\langle \vec{B}-\vec{A}   ,\vec{C}-\vec{A}\rangle$ = $(\vec{B} -\vec{A})^T (\vec{C}-\vec{A})$ = $(-1\;\; -2 \;\; -6)$ $\begin{pmatrix} 
-		+1\\-3\\-5 
-	\end{pmatrix}$ = 35
-\end{enumerate}
-Clearly, from $1.$ we can see that $\triangle$ABC is right angled at C.
+Clearly, from ($1$) we can see that $\triangle$ABC is right angled at C.
 \end{document}
