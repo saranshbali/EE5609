@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  5 SEP 2020 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  5 SEP 2020 18:45
 entering extended mode
 **./Assignment1.tex
 (Assignment1.tex
@@ -197,20 +197,20 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 ) (Assignment1.aux)
 \openout1 = `Assignment1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (C:\Users\Neeru\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -235,39 +235,36 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
 
 
 (C:\Users\Neeru\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 
 
 (C:\Users\Neeru\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 23--35
-
- []
-
 <assignment1fig-1.jpg, id=1, 683.55376pt x 470.75874pt>
 File: assignment1fig-1.jpg Graphic file (type jpg)
 <use assignment1fig-1.jpg>
-Package pdftex.def Info: assignment1fig-1.jpg  used on input line 40.
+Package pdftex.def Info: assignment1fig-1.jpg  used on input line 27.
 (pdftex.def)             Requested size: 345.0pt x 237.60558pt.
+
 [1
 
 {C:/Users/Neeru/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./assignment1fi
 g-1.jpg>] [2] (Assignment1.aux) ) 
 Here is how much of TeX's memory you used:
- 4175 strings out of 480790
- 63748 string characters out of 2897302
- 306267 words of memory out of 3000000
- 20163 multiletter control sequences out of 15000+200000
+ 4176 strings out of 480790
+ 63753 string characters out of 2897302
+ 304267 words of memory out of 3000000
+ 20164 multiletter control sequences out of 15000+200000
  537140 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,43p,235b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,43p,231b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Neeru/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Neeru/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Neeru/AppData/Loca
@@ -277,7 +274,7 @@ eeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
 /Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmti10.pfb>
-Output written on Assignment1.pdf (2 pages, 120461 bytes).
+Output written on Assignment1.pdf (2 pages, 118513 bytes).
 PDF statistics:
  38 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
