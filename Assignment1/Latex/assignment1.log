@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  6 SEP 2020 10:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  6 SEP 2020 16:29
 entering extended mode
-**./Assignment1.tex
-(Assignment1.tex
+**./assignment1.tex
+(assignment1.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18>
 (C:\Users\Neeru\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -194,23 +194,23 @@ mode.def
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count194
 \l__pdf_internal_box=\box48
-) (Assignment1.aux)
-\openout1 = `Assignment1.aux'.
+) (assignment1.aux)
+\openout1 = `assignment1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
 
 (C:\Users\Neeru\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -235,48 +235,48 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
 
 
 (C:\Users\Neeru\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 
 
 (C:\Users\Neeru\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<assignment1fig-1.jpg, id=1, 683.55376pt x 470.75874pt>
-File: assignment1fig-1.jpg Graphic file (type jpg)
-<use assignment1fig-1.jpg>
-Package pdftex.def Info: assignment1fig-1.jpg  used on input line 29.
-(pdftex.def)             Requested size: 345.0pt x 237.60558pt.
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+ []
 
 [1
 
-{C:/Users/Neeru/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./assignment1fi
-g-1.jpg>] [2] (Assignment1.aux) ) 
+{C:/Users/Neeru/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(assignment1.aux) ) 
 Here is how much of TeX's memory you used:
- 4174 strings out of 480790
- 63744 string characters out of 2897302
- 303267 words of memory out of 3000000
- 20162 multiletter control sequences out of 15000+200000
+ 4161 strings out of 480790
+ 63566 string characters out of 2897302
+ 302267 words of memory out of 3000000
+ 20151 multiletter control sequences out of 15000+200000
  537140 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,43p,231b,302s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Neeru/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Neeru/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Neeru/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Neeru/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/N
-eeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmti10.pfb>
-Output written on Assignment1.pdf (2 pages, 118856 bytes).
+ 38i,9n,43p,245b,160s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmbx10.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Neeru/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Neeru/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Neeru/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Neeru/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/
+Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
+y7.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmti10.pfb>
+Output written on assignment1.pdf (1 page, 92938 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
