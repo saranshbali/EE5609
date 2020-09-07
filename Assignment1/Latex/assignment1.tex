@@ -10,13 +10,14 @@
 \newtheorem{question}[theorem]{Question}
 \newtheorem{answer}[theorem]{Solution}
 \newcommand{\myvec}[1]{\ensuremath{\begin{pmatrix}#1\end{pmatrix}}}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
 \let\vec\mathbf
 \begin{document}
 \begin{question}
 	Show that the unit direction vector inclined equally to the coordinate axes is $\myvec{\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}$.
 \end{question}
 \solution Let $\vec{m}$ be the given unit vector such that $\vec{m}$ = $\myvec{m_x \\ m_y \\ m_z}$.Let $\vec{e}_1=\myvec{1 \\ 0 \\ 0}$, $\vec{e}_2=\myvec{0 \\ 1 \\ 0}$ and $\vec{e}_3=\myvec{0 \\ 0 \\ 1}$ be the direction vectors of the coordinate axes.
-As $\vec{m}$ is a unit vector, so $||\vec{m}||=1$ and also we are given is that $\vec{m}$ is inclined equally to the coordinate axis, 
+As $\vec{m}$ is a unit vector, so $\norm{\vec{m}} =1$ and also we are given is that $\vec{m}$ is inclined equally to the coordinate axis, 
 \begin{equation}
 \vec{e}_1^T\vec{m} =\vec{e}_2^T\vec{m}=\vec{e}_3^T\vec{m}
 \end{equation}
@@ -50,7 +51,7 @@ Taking, $m_x = m_y = m_z =1$, we get
 \begin{equation*}
 \vec{m} = \myvec{1 \\ 1 \\1}
 \end{equation*}
-Also, we know that $||\vec{m}||=1$ as $\vec{m}$ is a unit vector, thus
+Also, we know that $\norm{\vec{m}}=1$ as $\vec{m}$ is a unit vector, thus
 \begin{equation*}
 \vec{m} = \myvec{\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}
 \end{equation*}
