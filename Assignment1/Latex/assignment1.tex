@@ -18,22 +18,43 @@
 \solution Let $\vec{m}$ be the given unit vector such that $\vec{m}$ = $\myvec{m_x \\ m_y \\ m_z}$.Let $\vec{e}_1=\myvec{1 \\ 0 \\ 0}$, $\vec{e}_2=\myvec{0 \\ 1 \\ 0}$ and $\vec{e}_3=\myvec{0 \\ 0 \\ 1}$ be the direction vectors of the coordinate axes.
 As $\vec{m}$ is a unit vector, so $||\vec{m}||=1$ and also we are given is that $\vec{m}$ is inclined equally to the coordinate axis, 
 \begin{equation}
-\vec{e}_1^T\vec{m} =\vec{e}_2^T\vec{m}=\vec{e}_2^T\vec{m}
+\vec{e}_1^T\vec{m} =\vec{e}_2^T\vec{m}=\vec{e}_3^T\vec{m}
 \end{equation}
 Now, $(1)$ implies 
 \begin{equation*}
-\vec m_x =  \vec m_y = \vec m_z
-\end{equation*}	
-Thus,
-\begin{equation}
-\vec m = \myvec{m_x \\ m_x \\ m_x}
-\end{equation}
-Also, we know that $||\vec{m}||=1$ and by $(2)$, we have
-\begin{equation*}
-\sqrt{\vec{m_x}^2 + \vec{m_x}^2 + \vec{m_x}^2} = 1 \quad \implies
-\vec{m_x} = \frac{+}{} \frac{1}{\sqrt{3}}
+(\vec{e}_1 -\vec{e}_2)^T\vec{m} = 0 
 \end{equation*}
-Taking, the positive sign, we see that  $\vec{m}$ = $\myvec{ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}$ is the unit direction vector inclined equally to the coordinate axes.\\
+\begin{align*}
+	(\vec{e}_2 -\vec{e}_3)^T\vec{m} = 0
+\end{align*}	
+\begin{align*}
+	(\vec{e}_3 -\vec{e}_1)^T\vec{m} = 0
+\end{align*}
+Thus, converting above system of equations into matrix form, we get
+\begin{equation}
+\myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -1 \quad +0 \quad +1 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}
+\end{equation}
+Now using $R_3$ = $R_1$ + $R_3$ we get,
+\begin{equation}
+\myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -0 \quad -1 \quad +1 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}
+\end{equation}
+Now using $R_3$ = $R_2$ + $R_3$ we get,
+\begin{equation}
+\myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}
+\end{equation}
+Now, by ($3$),
+\begin{equation*}
+m_x = m_y = m_z
+\end{equation*}
+Taking, $m_x = m_y = m_z =1$, we get
+\begin{equation*}
+\vec{m} = \myvec{1 \\ 1 \\1}
+\end{equation*}
+Also, we know that $||\vec{m}||=1$ as $\vec{m}$ is a unit vector, thus
+\begin{equation*}
+\vec{m} = \myvec{\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}
+\end{equation*}
+Thus, we see that  $\vec{m}$ = $\myvec{ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}$ is the unit direction vector inclined equally to the coordinate axes.\\
 \begin{figure}[!htb]
 	
 	\centering
