@@ -22,28 +22,23 @@ As $\vec{m}$ is a unit vector, so $\norm{\vec{m}} =1$ and also we are given is t
 \vec{e}_1^T\vec{m} =\vec{e}_2^T\vec{m}=\vec{e}_3^T\vec{m}
 \end{equation}
 Now, $(1)$ implies 
-\begin{equation*}
-(\vec{e}_1 -\vec{e}_2)^T\vec{m} = 0 
-\end{equation*}
 \begin{align*}
-	(\vec{e}_2 -\vec{e}_3)^T\vec{m} = 0
-\end{align*}	
-\begin{align*}
+	(\vec{e}_1 -\vec{e}_2)^T\vec{m} = 0 \\
+	(\vec{e}_2 -\vec{e}_3)^T\vec{m} = 0 \\
 	(\vec{e}_3 -\vec{e}_1)^T\vec{m} = 0
 \end{align*}
 Thus, converting above system of equations into matrix form, we get
-\begin{equation}
-\myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -1 \quad +0 \quad +1 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}
-\end{equation}
-Now using $R_3$ = $R_1$ + $R_3$ we get,
-\begin{equation}
-\myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -0 \quad -1 \quad +1 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}
-\end{equation}
-Now using $R_3$ = $R_2$ + $R_3$ we get,
-\begin{equation}
-\myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}
-\end{equation}
-Now, by ($4$),
+\begin{align}
+& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -1 \quad +0 \quad +1 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}  \xRightarrow[R_1+R_3]{R_3} \\
+& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0} 
+\xRightarrow[R_2+R_3]{R_3} \\
+& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}
+\xRightarrow[R_1+R_2]{R_2} \\
+& \myvec{+1 \quad  -1 \quad +0 \\ +1 \quad +0 \quad -1 \\ +0 \quad +0 \quad +0 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}
+\xRightarrow[R_1-R_2]{R_1} \\
+& \myvec{+0 \quad  -1 \quad +1 \\ +1 \quad +0 \quad -1 \\ +0 \quad +0 \quad +0 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}
+\end{align}
+From($6$) we find out that
 \begin{equation*}
 m_x = m_y = m_z
 \end{equation*}
@@ -67,4 +62,5 @@ Thus, we see that  $\vec{m}$ = $\myvec{ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}
 	\label{fig:}
 	
 \end{figure}
+
 \end{document}
