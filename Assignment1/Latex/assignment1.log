@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  8 SEP 2020 22:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  9 SEP 2020 10:35
 entering extended mode
 **./assignment1.tex
 (assignment1.tex
@@ -258,13 +258,13 @@ Package pdftex.def Info: assignment1figure.jpg  used on input line 53.
 {C:/Users/Neeru/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2 <./assignmen
 t1figure.jpg>] (assignment1.aux) ) 
 Here is how much of TeX's memory you used:
- 4176 strings out of 480790
- 63810 string characters out of 2897302
- 311267 words of memory out of 3000000
- 20164 multiletter control sequences out of 15000+200000
+ 4177 strings out of 480790
+ 63815 string characters out of 2897302
+ 312267 words of memory out of 3000000
+ 20165 multiletter control sequences out of 15000+200000
  537140 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,14n,43p,288b,304s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,18n,43p,288b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Neeru/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Neeru/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Neeru/AppData/Loc
@@ -277,7 +277,7 @@ cm/cmr7.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmsy7.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on assignment1.pdf (2 pages, 162632 bytes).
+Output written on assignment1.pdf (2 pages, 163139 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
