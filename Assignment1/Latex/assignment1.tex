@@ -33,9 +33,9 @@ Thus, converting above system of equations into matrix form, we get
 \end{equation}
 To find the solution of ($\ref{2}$), we find the  echelon form of  $\vec{A}$.
 \begin{align}
-& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -1 \quad +0 \quad +1 } \xLeftrightarrow[]{r_3 \leftarrow r_1 + r3} \quad \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 } \\
-& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 } \xLeftrightarrow[]{r_3 \leftarrow r_2 + r3} \quad \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 } \\
-& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 } \xLeftrightarrow[]{r_1\leftarrow r_1+r_2} \quad  \myvec{+1 \quad  +0 \quad -1 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 }{\label{3}}
+& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -1 \quad +0 \quad +1 } \quad \xLeftrightarrow[]{r_3 \leftarrow r_1 + r3} \quad \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 } \\
+& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 } \quad \xLeftrightarrow[]{r_3 \leftarrow r_2 + r3} \quad \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 } \\
+& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 } \quad \xLeftrightarrow[]{r_1\leftarrow r_1+r_2} \quad  \myvec{+1 \quad  +0 \quad -1 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 }{\label{3}}
 \end{align}
 From ($\ref{3}$), we find out that
 \begin{align}
