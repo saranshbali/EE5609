@@ -28,14 +28,16 @@ Now, ($\ref{1}$) implies
 	(\vec{e}_3 -\vec{e}_1)^T\vec{m} = 0
 \end{align}
 Thus, converting above system of equations into matrix form, we get
+\begin{equation}{\label{2}}
+\vec{Am = 0 }
+\end{equation}
+To find the solution of ($\ref{2}$), we find the  echelon form of  $\vec{A}$.
 \begin{align}
-& \quad \vec{Am = 0 } \\
-& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -1 \quad +0 \quad +1 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0}  \xLeftrightarrow[]{r_3\leftarrow r_1+r_3} \\
-& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0} \xLeftrightarrow[]{r_3\leftarrow r_2+r_3} \\ 
-& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0} \xLeftrightarrow[]{r_1\leftarrow r_1+r_2} \\
-& \myvec{+1 \quad  +0 \quad -1 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 }\myvec{m_x \\ m_y \\ m_z} = \myvec{0 \\ 0 \\ 0} \label{eq1}
+& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -1 \quad +0 \quad +1 } \xLeftrightarrow[]{r_3 \leftarrow r_1 + r3} \quad \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 } \\
+& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 } \xLeftrightarrow[]{r_3 \leftarrow r_2 + r3} \quad \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 } \\
+& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 } \xLeftrightarrow[]{r_1\leftarrow r_1+r_2} \quad  \myvec{+1 \quad  +0 \quad -1 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 }{\label{3}}
 \end{align}
-From ($\ref{eq1}$) we find out that
+From ($\ref{3}$), we find out that
 \begin{align}
 & m_x = m_y = m_z \\
 & \vec{m} = \myvec{ m_z\\ m_z \\m_z} \qquad and \qquad \norm{\vec{m}} = \sqrt{3}m_z
