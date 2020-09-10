@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  9 SEP 2020 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  10 SEP 2020 10:40
 entering extended mode
 **./assignment1.tex
 (assignment1.tex
@@ -247,37 +247,36 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
 (C:\Users\Neeru\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<assignment1figure.jpg, id=1, 609.77812pt x 345.54094pt>
+[1
+
+{C:/Users/Neeru/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+<assignment1figure.jpg, id=15, 609.77812pt x 345.54094pt>
 File: assignment1figure.jpg Graphic file (type jpg)
 <use assignment1figure.jpg>
 Package pdftex.def Info: assignment1figure.jpg  used on input line 54.
 (pdftex.def)             Requested size: 345.0pt x 195.50516pt.
-
-[1
-
-{C:/Users/Neeru/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2 <./assignmen
-t1figure.jpg>] (assignment1.aux) ) 
+ [2 <./assignment1figure.jpg>] (assignment1.aux) ) 
 Here is how much of TeX's memory you used:
  4179 strings out of 480790
  63819 string characters out of 2897302
- 310267 words of memory out of 3000000
+ 309267 words of memory out of 3000000
  20167 multiletter control sequences out of 15000+200000
  537140 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,14n,43p,288b,308s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Neeru/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Neeru/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Neeru/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Neeru/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/
-Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5
-.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy7.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on assignment1.pdf (2 pages, 164296 bytes).
+<C:/Users/Neeru/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Neeru/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/N
+eeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
+:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+7.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmr10.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr5.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr7.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Neeru/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Neeru/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on assignment1.pdf (2 pages, 163713 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

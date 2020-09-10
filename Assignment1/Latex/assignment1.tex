@@ -21,7 +21,7 @@ As $\vec{m}$ is a unit vector, so $\norm{\vec{m}} =1$ and also we are given is t
 \begin{equation}{\label{1}}
 \vec{e}_1^T\vec{m} =\vec{e}_2^T\vec{m}=\vec{e}_3^T\vec{m}
 \end{equation}
-Now, ($\ref{1}$) implies 
+Now, (\ref{1}) implies 
 \begin{align}
 	(\vec{e}_1 -\vec{e}_2)^T\vec{m} = 0 \\
 	(\vec{e}_2 -\vec{e}_3)^T\vec{m} = 0 \\
@@ -29,23 +29,23 @@ Now, ($\ref{1}$) implies
 \end{align}
 Thus, converting above system of equations into matrix form, we get
 \begin{equation}{\label{2}}
-\vec{Am = 0 }
+\vec{A}\vec{m} = 0
 \end{equation}
-To find the solution of ($\ref{2}$), we find the  echelon form of  $\vec{A}$.
+To find the solution of (\ref{2}), we find the  echelon form of  $\vec{A}$.
 \begin{align}
 & \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -1 \quad +0 \quad +1 } \quad \xLeftrightarrow[]{r_3 \leftarrow r_1 + r_3} \quad \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 } \\
 & \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 } \quad \xLeftrightarrow[]{r_3 \leftarrow r_2 + r_3} \quad \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 } \\
 & \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 } \quad \xLeftrightarrow[]{r_1\leftarrow r_1+r_2} \quad  \myvec{+1 \quad  +0 \quad -1 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 }{\label{3}}
 \end{align}
-From ($\ref{3}$), we find out that
+From (\ref{3}), we find out that
 \begin{align}
 & m_x = m_y = m_z \\
-& \vec{m} = \myvec{ m_z\\ m_z \\m_z} \qquad and \qquad \norm{\vec{m}} = \sqrt{3}m_z
+& \vec{m} = \myvec{ m_z\\ m_z \\m_z}  \implies \quad \vec{m} = m_z\myvec{ 1\\ 1 \\1}
 \end{align}
-For $\vec{m}$ to be a unit vector, we need to divide each element of $\vec{m}$ by $\norm{\vec{m}}$. Hence
-\begin{equation*}
+Taking $m_z =1$, then $\norm{\vec{m}} = \frac{1}{\sqrt{3}}$ and for $\vec{m}$ to be a unit vector, we need to divide each element of $\vec{m}$ by $\norm{\vec{m}}$. Hence
+\begin{equation}
 \vec{m} = \myvec{\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}
-\end{equation*}
+\end{equation}
 Thus, we see that  $\vec{m}$ = $\myvec{ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}$ is the unit direction vector inclined equally to the coordinate axes.
 \begin{figure}[!htb]
 	
