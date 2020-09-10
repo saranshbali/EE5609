@@ -33,9 +33,9 @@ Thus, converting above system of equations into matrix form, we get
 \end{equation}
 To find the solution of (\ref{2}), we find the  echelon form of  $\vec{A}$.
 \begin{align}
-& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ -1 \quad +0 \quad +1 } \quad \xLeftrightarrow[]{r_3 \leftarrow r_1 + r_3} \quad \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 } \\
-& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad -1 \quad +1 } \quad \xLeftrightarrow[]{r_3 \leftarrow r_2 + r_3} \quad \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 } \\
-& \myvec{+1 \quad  -1 \quad +0 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 } \quad \xLeftrightarrow[]{r_1\leftarrow r_1+r_2} \quad  \myvec{+1 \quad  +0 \quad -1 \\ +0 \quad +1 \quad -1 \\ +0 \quad +0 \quad +0 }{\label{3}}
+& \myvec{1 & -1 & 0 \\ 0 & 1 & -1 \\ -1 & 0 & 1 } \quad \xleftrightarrow[]{r_3 \leftarrow r_1 + r_3} \quad \myvec{1 & -1 & 0 \\ 0 & 1 & -1 \\ 0 & -1 & 1 } \\
+& \myvec{1 & -1 & 0 \\ 0 & 1 & -1 \\ 0 & -1 & 1 } \qquad \xleftrightarrow[]{r_3 \leftarrow r_2 + r_3} \quad \myvec{1 & -1 & 0 \\ 0 & 1 & -1 \\ 0 & 0 & 0 } \\
+& \myvec{1 &  -1 & 0 \\ 0 & 1 & -1 \\ 0 & 0 & 0 } \qquad \xleftrightarrow[]{r_1\leftarrow r_1+r_2} \quad  \myvec{1 &  0 & -1 \\ 0 & 1 & -1 \\ 0 & 0 & 0 }{\label{3}}
 \end{align}
 From (\ref{3}), we find out that
 \begin{align}
@@ -46,7 +46,11 @@ Taking $m_z =1$, then $\norm{\vec{m}} = \frac{1}{\sqrt{3}}$ and for $\vec{m}$ to
 \begin{equation}
 \vec{m} = \myvec{\frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}
 \end{equation}
-Thus, we see that  $\vec{m}$ = $\myvec{ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}$ is the unit direction vector inclined equally to the coordinate axes.
+Thus, we see that  
+\begin{eqnarray}
+\vec{m} = \myvec{ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}} \\ \frac{1}{\sqrt{3}}}
+\end{eqnarray}
+is the unit direction vector inclined equally to the coordinate axes.
 \begin{figure}[!htb]
 	
 	\centering
