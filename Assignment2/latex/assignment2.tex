@@ -276,15 +276,15 @@ Converting, \ref{2}, \ref{3}, \ref{4} and \ref{5} into matrix form we get,
 \end{equation}
 The matrix $\vec{A}$ in above is given as:
 \begin{equation}
-	\myvec{&1 &2 &0 &-2 \\ &1 &0 &-2 &0 \\ &0 &1 &-1 &-0 \\&1 &4 &-4 &-1}
+	\myvec{&1 &2 &0 &-2 \\ &1 &0 &-2 &0 \\ &0 &1 &-1 &0 \\&1 &4 &-4 &-1}
 \end{equation}
 To find the solution of \ref{6}, we reduce $\vec{A}$ into its Echelon form and solve consequently. The Echolen form of $\vec{A}$ can be found as
 \begin{align}
- & \myvec{&1 &2 & 0 &-2 \\ &1 &0 &-2 & 0 \\ &0 &1 &-1 &-0 \\&1 &4 &-4 &-1} &\xleftrightarrow[]{r_2 \leftarrow r_2 - r_1} &\myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&1 &4 &-4 &-1} \\
- & \myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &-0 \\&1 &4 &-4 &-1} &\xleftrightarrow[]{r_4 \leftarrow r_4 - r_1}&\myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} \\
- & \myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &-0 \\&0 &2 &-4 &1} &\xleftrightarrow[]{r_2 \leftarrow r_1 + r_2} &\myvec{&1 &0 &-2 &0 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} \\
- & \myvec{&1 &0 &-2 &0 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &-0 \\&0 &2 &-4 &1} &\xleftrightarrow[]{r_2 \leftarrow -r_2/2 } &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} \\
- & \myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &1 &-1 &-0 \\&0 &2 &-4 &1}  &\xleftrightarrow[]{r_3 \leftarrow r_3 - r_2 } &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &2 &-4 &1}\\
+ & \myvec{&1 &2 & 0 &-2 \\ &1 &0 &-2 & 0 \\ &0 &1 &-1 &0 \\&1 &4 &-4 &-1} &\xleftrightarrow[]{r_2 \leftarrow r_2 - r_1} &\myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&1 &4 &-4 &-1} \\
+ & \myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&1 &4 &-4 &-1} &\xleftrightarrow[]{r_4 \leftarrow r_4 - r_1}&\myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} \\
+ & \myvec{&1 &2 &0 &-2 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} &\xleftrightarrow[]{r_2 \leftarrow r_1 + r_2} &\myvec{&1 &0 &-2 &0 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} \\
+ & \myvec{&1 &0 &-2 &0 \\ &0 &-2 &-2 &2 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} &\xleftrightarrow[]{r_2 \leftarrow -r_2/2 } &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1} \\
+ & \myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &1 &-1 &0 \\&0 &2 &-4 &1}  &\xleftrightarrow[]{r_3 \leftarrow r_3 - r_2 } &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &2 &-4 &1}\\
  &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &2 &-4 &1} 
  &\xleftrightarrow[]{r_4 \leftarrow r_4 - 2r_2 } &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &0 &-6 &3} \\
  &\myvec{&1 &0 &-2 &0 \\ &0 &1 &1 &-1 \\ &0 &0 &-2 &1 \\&0 &2 &-4 &1} 
