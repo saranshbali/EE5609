@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  12 SEP 2020 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  12 SEP 2020 19:25
 entering extended mode
 **./assignment2.tex
 (assignment2.tex
@@ -1711,38 +1711,30 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 (C:\Users\Neeru\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
-Overfull \hbox (1.71388pt too wide) detected at line 272
-[]
- []
-
-
-Overfull \hbox (1.51016pt too wide) detected at line 292
-[]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{C:/Users/Neeru/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-] [2
-
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 314.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 314.
- (assignment2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 314.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 314.
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 337.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 337.
+
+(assignment2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 337.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 337.
 Package rerunfilecheck Info: File `assignment2.out' has not changed.
 (rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 314.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 337.
  ) 
 Here is how much of TeX's memory you used:
- 41209 strings out of 480790
- 948088 string characters out of 2897302
- 1402472 words of memory out of 3000000
- 56382 multiletter control sequences out of 15000+200000
+ 41217 strings out of 480790
+ 948168 string characters out of 2897302
+ 1403634 words of memory out of 3000000
+ 56386 multiletter control sequences out of 15000+200000
  597156 words of font info for 154 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,18n,91p,506b,1010s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1757,9 +1749,9 @@ es/utmb8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
 es/utmbi8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on assignment2.pdf (2 pages, 71189 bytes).
+Output written on assignment2.pdf (2 pages, 74834 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 31 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
