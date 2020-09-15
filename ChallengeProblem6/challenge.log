@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  15 SEP 2020 11:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  15 SEP 2020 11:10
 entering extended mode
 **./challenge.tex
 (challenge.tex
@@ -1737,8 +1737,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 271.
  ) 
 Here is how much of TeX's memory you used:
  41183 strings out of 480790
- 947785 string characters out of 2897302
- 1367136 words of memory out of 3000000
+ 947777 string characters out of 2897302
+ 1366136 words of memory out of 3000000
  56374 multiletter control sequences out of 15000+200000
  597190 words of font info for 154 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1753,7 +1753,7 @@ utmb8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/
 utmbi8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmr8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on challenge.pdf (1 page, 60837 bytes).
+Output written on challenge.pdf (1 page, 60681 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  9 named destinations out of 1000 (max. 500000)
