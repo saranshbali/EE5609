@@ -256,6 +256,21 @@ https://github.com/saranshbali/EE5609/blob/master/ChallengeProblem6
 \section{Problem}
 Show that the set of Orthogonal vectors $\vec{v_1},\vec{v_2},...,\vec{v_n}$ is Linear independent. 
 \section{Solution}
+\subsection{n=2}
+Consider $\vec{v_1}$ and $\vec{v_2}$ be two orthogonal vectors. Now,
+\begin{equation}\label{2}
+	a_1\vec{v_1} + a_2\vec{v_2} = 0
+\end{equation}
+Taking dot product of \ref{2} with $\vec{v_1}$, we get
+\begin{align}
+ & a_1\norm{\vec{v_1}}^2 + a_2\vec{v_2}^T\vec{v_1} = 0 \\
+ & a_1\norm{\vec{v_1}}^2 = 0 \quad \implies a_1 = 0 \\
+ & \quad \norm{\vec{v_1}}^2 = 0 \iff \vec{v_1} =0 
+\end{align} 
+Similarly, taking  dot product of \ref{2} with $\vec{v_2}$, we get $a_2 =0$.
+
+Thus, $\vec{v_1}$ and $\vec{v_2}$ are linearly independent as well.
+\subsection{General Case}
 Consider, the expression
 \begin{equation}\label{1}
 	a_1\vec{v_1} + a_2\vec{v_2} + ... + a_n\vec{v_n} = 0

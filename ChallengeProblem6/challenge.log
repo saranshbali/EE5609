@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  15 SEP 2020 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  15 SEP 2020 11:49
 entering extended mode
 **./challenge.tex
 (challenge.tex
@@ -1720,38 +1720,39 @@ Underfull \hbox (badness 6141) in paragraph at lines 257--258
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 289.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 289.
 
 (challenge.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 289.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 289.
 Package rerunfilecheck Info: File `challenge.out' has not changed.
-(rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
+(rerunfilecheck)             Checksum: 043072F40C46769FB52B38BA92D797FE;198.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 289.
  ) 
 Here is how much of TeX's memory you used:
- 41184 strings out of 480790
- 947791 string characters out of 2897302
- 1367136 words of memory out of 3000000
- 56374 multiletter control sequences out of 15000+200000
- 597190 words of font info for 154 fonts, out of 3000000 for 9000
+ 41194 strings out of 480790
+ 947914 string characters out of 2897302
+ 1372179 words of memory out of 3000000
+ 56377 multiletter control sequences out of 15000+200000
+ 597428 words of font info for 155 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,9n,91p,504b,1010s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
-/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb
-><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.
+/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb>
+<C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.
 pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rt
-xsc.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfont
-s/txsy.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
-onts/txsyc.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmbi8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
-imes/utmr8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on challenge.pdf (1 page, 62952 bytes).
+xr.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts
+/rtxsc.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
+onts/txsy.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+txfonts/txsyc.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw
+/times/utmb8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw
+/times/utmbi8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/ur
+w/times/utmr8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/ur
+w/times/utmri8a.pfb>
+Output written on challenge.pdf (1 page, 68738 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 125 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 113 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
