@@ -254,13 +254,17 @@ https://github.com/saranshbali/EE5609/tree/master/Assignment3
 \end{lstlisting}
 %
 \section{Problem}
-ABCD is a quadrilateral in which AD = BC and $\angle{DAB}  = \angle{CAB}$ . Prove that
+ABCD is a quadrilateral in which AD = BC and $\angle{DAB}  = \angle{CBA}$ . Prove that
 \begin{align}
 a) & \quad	\triangle ABD \cong \triangle BAC \\
 b) & \quad BD = AC \\ 
 c) & \quad \angle ABD = \angle BAC
 \end{align}
-
+\section{Some Results used}
+\begin{align}
+ & \norm{\vec{A}-\vec{B}} \enspace = \enspace   \norm{\vec{B}-\vec{A}} \\
+ & (\vec{B}-\vec{A})^T(\vec{B}-\vec{C}) \enspace = \enspace \norm{\vec{A}-\vec{B}}^2 - (\vec{A}-\vec{C})^T(\vec{A}-\vec{B}) 
+\end{align}
 \section{Solution}
 \renewcommand{\thefigure}{1}
 \begin{figure}[!htb]
@@ -271,18 +275,60 @@ c) & \quad \angle ABD = \angle BAC
 \end{figure}
 ABCD is a quadrilateral, where AD=BC and $\angle DAB= \angle CBA$.
 
-In $\triangle ABD$ and $\triangle BAC$,
+To show $\triangle ABD \cong \triangle BAC$, we need to prove
 \begin{align}
- & AD=BC \qquad & [Given] \\
- & \angle DAB =  \angle CBA \qquad & [Given] \\
- & AB=BA  \qquad & [Common \enspace Side]
+ & \angle DAB = \angle CBA \label{9}\\
+ & \angle ABD = \angle BAC \\
+ & \angle ADB = \angle BCA
 \end{align}
-Hence, by SAS Congruence rule, $\triangle ABD \cong \triangle BAC$ proving (a).
-
-Now, since $\triangle ABD \cong \triangle BAC$, thus by CPCT (Corresponding Parts of Congruent Triangle)
+Since, it is given that:
 \begin{align}
-	& \quad BD = AC \\
-	& \quad \angle ABD = \angle BAC
+ & \angle DAB \enspace = \enspace \angle CBA \label{1} \\
+ \implies &\cos\angle DAB \enspace = \enspace \cos\angle CBA \\
+ &  \frac{(\vec A -\vec B)^T(\vec{A}-\vec{D})}{\norm{\vec{A}-\vec{B}} \norm{\vec{A}-\vec{D}} } \enspace = \enspace \frac{(\vec B -\vec A)^T(\vec{B}-\vec{C})}{\norm{\vec{B}-\vec{A}} \norm{\vec{B}-\vec{C}} }
 \end{align}
-proving (b) and (c).
+Since,
+\begin{align}
+& \norm{\vec{A}-\vec{D}} \enspace = \enspace \norm{\vec{B}-\vec{C}} \\
+& \frac{(\vec A -\vec B)^T(\vec{A}-\vec{D})}{\norm{\vec{A}-\vec{B}}} \enspace = \enspace \frac{(\vec B -\vec A)^T(\vec{B}-\vec{C})}{\norm{\vec{B}-\vec{A}}} \\
+& (\vec A -\vec B)^T(\vec{A}-\vec{D}) =  (\vec B -\vec A)^T(\vec{B}-\vec{C}) \\
+& \norm{\vec{A}-\vec{B}}^2 - (\vec B -\vec A)^T(\vec{B}-\vec{D})= \norm{\vec{A}-\vec{B}}^2 - (\vec A -\vec B)^T(\vec{A}-\vec{C})\\
+& (\vec B -\vec A)^T(\vec{B}-\vec{D}) \enspace = \enspace (\vec A -\vec B)^T(\vec{A}-\vec{C})\label{2} \\
+& \norm{\vec{B} - \vec{A}}\norm{\vec{B} - \vec{D}}\cos\angle ABD \enspace = \enspace \norm{\vec{A} - \vec{B}}\norm{\vec{A} - \vec{C}}\cos\angle BAC \\
+& \norm{\vec{B} - \vec{D}}\cos\angle ABD \enspace = \enspace \norm{\vec{A} - \vec{C}}\cos\angle BAC\label{6}
+\end{align}
+Now, we pove $\norm{\vec{B} - \vec{D}} = \norm{\vec{A} - \vec{C}}$. By \ref{2}
+\begin{align}
+& (\vec B -\vec A)^T(\vec{B}-\vec{D}) \enspace = \enspace (\vec A -\vec B)^T(\vec{A}-\vec{C}) \\
+& \norm{\vec{B}-\vec{D}}^2 - (\vec D -\vec B)^T(\vec{D}-\vec{A})= \\
+& \norm{\vec{A}-\vec{C}}^2 - (\vec C -\vec B)^T(\vec{C}-\vec{A}) \\
+&  \norm{\vec{B}-\vec{D}}^2 - (\norm{\vec{A}-\vec{D}}^2 - (\vec A -\vec B)^T(\vec A -\vec D))   = \\
+& \norm{\vec{A}-\vec{C}}^2 - (\norm{\vec{B}-\vec{C}}^2 - (\vec B -\vec A)^T(\vec B -\vec C))\
+\end{align}
+We know that
+\begin{equation}\label{3}
+	\norm{\vec{A}-\vec{D}}\enspace = \enspace \norm{\vec{B}-\vec{C}} 
+\end{equation}
+From \ref{3}, we found out that 
+\begin{align}
+&  \norm{\vec{B}-\vec{D}}^2 + (\vec A -\vec B)^T(\vec{A}-\vec{D}) = \norm{\vec{A}-\vec{C}}^2 + (\vec B -\vec A)^T(\vec{B}-\vec{C}) \\
+& \norm{\vec{B}-\vec{D}}^2 + \norm{\vec{A}-\vec{B}}\norm{\vec{A}-\vec{D}}\cos \angle DAB = \\
+& \norm{\vec{A}-\vec{C}}^2 + \norm{\vec{B}-\vec{A}}\norm{\vec{B}-\vec{C}}\cos \angle CBA \label{4}	
+\end{align}
+Since, we are already given that $\angle DAB = \angle CBA$ and $\norm{\vec{A}-\vec{D}} = \norm{\vec{B}-\vec{C}}$. Then by \ref{4}
+\begin{align}
+& \norm{\vec{B}-\vec{D}}^2 = \norm{\vec{A}-\vec{C}}^2 \\
+& \norm{\vec{B}-\vec{D}} = \norm{\vec{A}-\vec{C}} \\
+&Hence, \enspace BD =AC \enspace proving \enspace  (b). \label{5}
+\end{align}
+Now, by \ref{5} and \ref{6}
+\begin{align}
+	& \cos \angle ABD = \cos \angle BAC \\
+	& \angle ABD = \angle BAC \enspace proving \enspace (c) \label{7}
+\end{align} 
+Since, By Angle Sum Property of a $\triangle$, Sum of all angles of a $\triangle = 180^.$. Thus, third angle of both the triangles $\triangle ABD$ and $\triangle BAC$ are equal.
+\begin{equation}\label{8}
+	\angle ADB = \angle ACB 
+\end{equation}
+Thus, by \ref{7}, \ref{8} and \ref{9} and AAA congruency criteria $\triangle ABD \cong \triangle BAC.$
 \end{document}
