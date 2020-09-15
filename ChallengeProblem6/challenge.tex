@@ -262,9 +262,12 @@ Consider, the expression
 \end{equation}
 Take the dot product of \ref{1} with $\vec{v_1}$, we get
 \begin{align}
-&	a_1\norm{\vec{v_1}^2} + a_2\vec{v_2}^T\vec{v_1} + ... + a_n\vec{v_n}^T\vec{v_1} = 0 \\
-Hence, \quad a_1 = 0
+&	a_1\norm{\vec{v_1}}^2 + a_2\vec{v_2}^T\vec{v_1} + ... + a_n\vec{v_n}^T\vec{v_1} = 0 \\
+&   a_1\norm{\vec{v_1}}^2 = 0 \quad (\vec{v_i}^T\vec{v_j}=0 \quad \forall i\not=j)\\
+& \quad \norm{\vec{v_1}}^2 = 0 \quad \implies \vec{v_1} = 0 
 \end{align}
+Hence, $a_1 = 0$
+
 Similarly, taking the dot product of \ref{1} with $\vec{v_2}$, ...,$\vec{v_n}$, we find out $a_2 =0, ...,a_n=0$.
 
 Thus, the set of Orthogonal vectors $\vec{v_1},\vec{v_2},...,\vec{v_n}$ is Linear independent.
