@@ -29,6 +29,9 @@
 \usepackage{multirow}
 %\usepackage{algorithm}
 %\usepackage{algpseudocode}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
 \usepackage{enumitem}
 \usepackage{mathtools}
 \usepackage{steinmetz}
@@ -265,12 +268,21 @@ c) & \quad \angle ABD = \angle BAC
  & \norm{\vec{A}-\vec{B}} \enspace = \enspace   \norm{\vec{B}-\vec{A}} \\
  & (\vec{B}-\vec{A})^T(\vec{B}-\vec{C}) \enspace = \enspace \norm{\vec{A}-\vec{B}}^2 - (\vec{A}-\vec{C})^T(\vec{A}-\vec{B}) 
 \end{align}
-\renewcommand{\thefigure}{1}
 \begin{figure}[!htb]
 	\centering
-	\includegraphics[width=\columnwidth]{assignment3fig.jpg}
-	\caption{\label{fig1}}
-	\label{fig:1}
+	\begin{tikzpicture}
+		\draw[black, thick] (0,0) --(1.0001,3); 
+		\filldraw[black] (0,0) circle (1pt) node[anchor=east] {B}; 
+		\draw[black, thick] (1.0001,3)--(5,3.3);
+		\filldraw[black] (1.0001,3) circle (1pt) node[anchor=east] {A};
+		\draw[black, thick] (5,3.3)--(4.8,-0.5);
+		\filldraw[black] (5,3.3) circle (1pt) node[anchor=west] {D};
+		\draw[black, thick] (4.8,-0.5)--(0,0);
+		\filldraw[black] (4.8,-0.5) circle (1pt) node[anchor=west] {C};
+		\draw[black, thick] (5,3.3)--(0,0);
+		\draw[black, thick] (1.0001,3)--(4.8,-0.5);
+	\end{tikzpicture}
+	\caption{Quadrilateral ABCD with AD = BC and $\angle$ DAB = $\angle$CBA}
 \end{figure}
 \section{Solution}
 ABCD is a quadrilateral, where AD=BC and $\angle DAB= \angle CBA$.
@@ -295,14 +307,20 @@ Since,
 	\implies & \frac{(\vec A -\vec B)^T(\vec{A}-\vec{D})}{\norm{\vec{A}-\vec{B}}} = \frac{(\vec B -\vec A)^T(\vec{B}-\vec{C})}{\norm{\vec{B}-\vec{A}}} \\
     \implies & (\vec A -\vec B)^T(\vec{A}-\vec{D}) =  (\vec B -\vec A)^T(\vec{B}-\vec{C})
 \end{align}
-\begin{multline}\label{2}
+\begin{multline}
  \implies \norm{\vec{A}-\vec{B}}^2 - (\vec B -\vec A)^T(\vec{B}-\vec{D})  =\\ \norm{\vec{A}-\vec{B}}^2 - (\vec A -\vec B)^T(\vec{A}-\vec{C}) 
 \end{multline}
 \begin{align}
 & (\vec B -\vec A)^T(\vec{B}-\vec{D}) \enspace = \enspace  (\vec A -\vec B)^T(\vec{A}-\vec{C})\label{1}
 \end{align}
+\begin{multline}
+ \norm{\vec{B} - \vec{A}}\norm{\vec{B} - \vec{D}}\cos\angle ABD  = \\ \norm{\vec{A} - \vec{B}}\norm{\vec{A} - \vec{C}}\cos\angle BAC 	
+\end{multline}
+\begin{equation}\label{2}
+ \norm{\vec{B} - \vec{D}}\cos\angle ABD  = \norm{\vec{A} - \vec{C}}\cos\angle BAC
+\end{equation}
 \begin{enumerate}
-\item[(b)] To Prove $\norm{\vec{B} - \vec{D}} = \norm{\vec{A} - \vec{C}}$. From \ref{1},
+\item[(b)] To Prove $\norm{\vec{B} - \vec{D}} = \norm{\vec{A} - \vec{C}}$. From \eqref{1},
 \begin{align}
 	& (\vec B -\vec A)^T(\vec{B}-\vec{D}) = (\vec A -\vec B)^T(\vec{A}-\vec{C})
 \end{align}
@@ -322,27 +340,19 @@ We know that
 \end{multline}
 \begin{multline}
 \norm{\vec{B}-\vec{D}}^2 + \norm{\vec{A}-\vec{B}}\norm{\vec{A}-\vec{D}}\cos \angle DAB = \\
- \norm{\vec{A}-\vec{C}}^2 + \norm{\vec{B}-\vec{A}}\norm{\vec{B}-\vec{C}}\cos \angle CBA \label{2}	
+ \norm{\vec{A}-\vec{C}}^2 + \norm{\vec{B}-\vec{A}}\norm{\vec{B}-\vec{C}}\cos \angle CBA \label{3}	
 \end{multline}
-Since, we are given that $\angle DAB = \angle CBA$ and $\norm{\vec{A}-\vec{D}} = \norm{\vec{B}-\vec{C}}$. Then by \ref{2}
+Since, we are given that $\angle DAB = \angle CBA$ and $\norm{\vec{A}-\vec{D}} = \norm{\vec{B}-\vec{C}}$. Then by \eqref{3}
 \begin{align}
 	& \norm{\vec{B}-\vec{D}}^2 = \norm{\vec{A}-\vec{C}}^2 \\
-	& \label{3}\norm{\vec{B}-\vec{D}} \enspace = \norm{\vec{A}-\vec{C}}
+	& \label{4}\norm{\vec{B}-\vec{D}} \enspace = \norm{\vec{A}-\vec{C}}
 \end{align}
 Hence, BD = AC.
 \end{enumerate}
-\begin{enumerate}
-	\item[(c)] From \ref{1}, we find that
-	\begin{multline}
-		 \norm{\vec{B} - \vec{A}}\norm{\vec{B} - \vec{D}}\cos\angle ABD  = \\ \norm{\vec{A} - \vec{B}}\norm{\vec{A} - \vec{C}}\cos\angle BAC \\
-	\end{multline}
-\begin{equation}
-	 \norm{\vec{B} - \vec{D}}\cos\angle ABD \enspace = \enspace \norm{\vec{A} - \vec{C}}\cos\angle BAC
-\end{equation}
-By, \ref{3}
+By, \eqref{2} and \eqref{4}, we have
 \begin{align}
 	& \cos\angle ABD \enspace = \enspace \cos\angle BAC \\
-	& \angle ABD = \angle BAC
+	& \angle ABD = \angle BAC \enspace proving \enspace (c)
 \end{align}
-\end{enumerate}
+
 \end{document}
