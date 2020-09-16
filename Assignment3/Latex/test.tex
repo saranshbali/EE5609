@@ -265,7 +265,6 @@ c) & \quad \angle ABD = \angle BAC
  & \norm{\vec{A}-\vec{B}} \enspace = \enspace   \norm{\vec{B}-\vec{A}} \\
  & (\vec{B}-\vec{A})^T(\vec{B}-\vec{C}) \enspace = \enspace \norm{\vec{A}-\vec{B}}^2 - (\vec{A}-\vec{C})^T(\vec{A}-\vec{B}) 
 \end{align}
-\section{Solution}
 \renewcommand{\thefigure}{1}
 \begin{figure}[!htb]
 	\centering
@@ -273,62 +272,77 @@ c) & \quad \angle ABD = \angle BAC
 	\caption{\label{fig1}}
 	\label{fig:1}
 \end{figure}
+\section{Solution}
 ABCD is a quadrilateral, where AD=BC and $\angle DAB= \angle CBA$.
-
-To show $\triangle ABD \cong \triangle BAC$, we need to prove
+\begin{enumerate}
+\item[(a)] To show $\triangle ABD \cong \triangle BAC$, we use
 \begin{align}
- & \angle DAB = \angle CBA \label{9}\\
- & \angle ABD = \angle BAC \\
- & \angle ADB = \angle BCA
+	& \angle DAB = \angle CBA & (Given) \\
+	& AD = BC & (Given) \\
+	& AB = BA & (Common \enspace Side)
 \end{align}
-Since, it is given that:
+Thus, by SAS Congruency Criteria, $\triangle ABD \cong \triangle BAC$.
+\end{enumerate}
+Also, we are given that
 \begin{align}
- & \angle DAB \enspace = \enspace \angle CBA \label{1} \\
+ & \angle DAB \enspace = \enspace \angle CBA \\
  \implies &\cos\angle DAB \enspace = \enspace \cos\angle CBA \\
- &  \frac{(\vec A -\vec B)^T(\vec{A}-\vec{D})}{\norm{\vec{A}-\vec{B}} \norm{\vec{A}-\vec{D}} } \enspace = \enspace \frac{(\vec B -\vec A)^T(\vec{B}-\vec{C})}{\norm{\vec{B}-\vec{A}} \norm{\vec{B}-\vec{C}} }
-\end{align}
+ &  \frac{(\vec A -\vec B)^T(\vec{A}-\vec{D})}{\norm{\vec{A}-\vec{B}} \norm{\vec{A}-\vec{D}} } = \frac{(\vec B -\vec A)^T(\vec{B}-\vec{C})}{\norm{\vec{B}-\vec{A}} \norm{\vec{B}-\vec{C}}}
+ \end{align}
 Since,
 \begin{align}
-& \norm{\vec{A}-\vec{D}} \enspace = \enspace \norm{\vec{B}-\vec{C}} \\
-& \frac{(\vec A -\vec B)^T(\vec{A}-\vec{D})}{\norm{\vec{A}-\vec{B}}} \enspace = \enspace \frac{(\vec B -\vec A)^T(\vec{B}-\vec{C})}{\norm{\vec{B}-\vec{A}}} \\
-& (\vec A -\vec B)^T(\vec{A}-\vec{D}) =  (\vec B -\vec A)^T(\vec{B}-\vec{C}) \\
-& \norm{\vec{A}-\vec{B}}^2 - (\vec B -\vec A)^T(\vec{B}-\vec{D})= \norm{\vec{A}-\vec{B}}^2 - (\vec A -\vec B)^T(\vec{A}-\vec{C})\\
-& (\vec B -\vec A)^T(\vec{B}-\vec{D}) \enspace = \enspace (\vec A -\vec B)^T(\vec{A}-\vec{C})\label{2} \\
-& \norm{\vec{B} - \vec{A}}\norm{\vec{B} - \vec{D}}\cos\angle ABD \enspace = \enspace \norm{\vec{A} - \vec{B}}\norm{\vec{A} - \vec{C}}\cos\angle BAC \\
-& \norm{\vec{B} - \vec{D}}\cos\angle ABD \enspace = \enspace \norm{\vec{A} - \vec{C}}\cos\angle BAC\label{6}
+	& \norm{\vec{A}-\vec{D}} \enspace = \enspace \norm{\vec{B}-\vec{C}} \\
+	\implies & \frac{(\vec A -\vec B)^T(\vec{A}-\vec{D})}{\norm{\vec{A}-\vec{B}}} = \frac{(\vec B -\vec A)^T(\vec{B}-\vec{C})}{\norm{\vec{B}-\vec{A}}} \\
+    \implies & (\vec A -\vec B)^T(\vec{A}-\vec{D}) =  (\vec B -\vec A)^T(\vec{B}-\vec{C})
 \end{align}
-Now, we pove $\norm{\vec{B} - \vec{D}} = \norm{\vec{A} - \vec{C}}$. By \ref{2}
+\begin{multline}\label{2}
+ \implies \norm{\vec{A}-\vec{B}}^2 - (\vec B -\vec A)^T(\vec{B}-\vec{D})  =\\ \norm{\vec{A}-\vec{B}}^2 - (\vec A -\vec B)^T(\vec{A}-\vec{C}) 
+\end{multline}
 \begin{align}
-& (\vec B -\vec A)^T(\vec{B}-\vec{D}) \enspace = \enspace (\vec A -\vec B)^T(\vec{A}-\vec{C}) \\
-& \norm{\vec{B}-\vec{D}}^2 - (\vec D -\vec B)^T(\vec{D}-\vec{A})= \\
-& \norm{\vec{A}-\vec{C}}^2 - (\vec C -\vec B)^T(\vec{C}-\vec{A}) \\
-&  \norm{\vec{B}-\vec{D}}^2 - (\norm{\vec{A}-\vec{D}}^2 - (\vec A -\vec B)^T(\vec A -\vec D))   = \\
-& \norm{\vec{A}-\vec{C}}^2 - (\norm{\vec{B}-\vec{C}}^2 - (\vec B -\vec A)^T(\vec B -\vec C))\
+& (\vec B -\vec A)^T(\vec{B}-\vec{D}) \enspace = \enspace  (\vec A -\vec B)^T(\vec{A}-\vec{C})\label{1}
 \end{align}
+\begin{enumerate}
+\item[(b)] To Prove $\norm{\vec{B} - \vec{D}} = \norm{\vec{A} - \vec{C}}$. From \ref{1},
+\begin{align}
+	& (\vec B -\vec A)^T(\vec{B}-\vec{D}) = (\vec A -\vec B)^T(\vec{A}-\vec{C})
+\end{align}
+\begin{multline}
+\norm{\vec{B}-\vec{D}}^2 - (\vec D -\vec B)^T(\vec{D}-\vec{A})= \\ \norm{\vec{A}-\vec{C}}^2 - (\vec C -\vec B)^T(\vec{C}-\vec{A})	
+\end{multline}
+\begin{multline}
+ \norm{\vec{B}-\vec{D}}^2 - (\norm{\vec{A}-\vec{D}}^2 - (\vec A -\vec B)^T(\vec A -\vec D))   = \\
+ \norm{\vec{A}-\vec{C}}^2 - (\norm{\vec{B}-\vec{C}}^2 - (\vec B -\vec A)^T(\vec B -\vec C))\	
+\end{multline}
 We know that
-\begin{equation}\label{3}
+\begin{equation}
 	\norm{\vec{A}-\vec{D}}\enspace = \enspace \norm{\vec{B}-\vec{C}} 
 \end{equation}
-From \ref{3}, we found out that 
+\begin{multline}
+\norm{\vec{B}-\vec{D}}^2 + (\vec A -\vec B)^T(\vec{A}-\vec{D}) = \\ \norm{\vec{A}-\vec{C}}^2 + (\vec B -\vec A)^T(\vec{B}-\vec{C}) 	
+\end{multline}
+\begin{multline}
+\norm{\vec{B}-\vec{D}}^2 + \norm{\vec{A}-\vec{B}}\norm{\vec{A}-\vec{D}}\cos \angle DAB = \\
+ \norm{\vec{A}-\vec{C}}^2 + \norm{\vec{B}-\vec{A}}\norm{\vec{B}-\vec{C}}\cos \angle CBA \label{2}	
+\end{multline}
+Since, we are given that $\angle DAB = \angle CBA$ and $\norm{\vec{A}-\vec{D}} = \norm{\vec{B}-\vec{C}}$. Then by \ref{2}
 \begin{align}
-&  \norm{\vec{B}-\vec{D}}^2 + (\vec A -\vec B)^T(\vec{A}-\vec{D}) = \norm{\vec{A}-\vec{C}}^2 + (\vec B -\vec A)^T(\vec{B}-\vec{C}) \\
-& \norm{\vec{B}-\vec{D}}^2 + \norm{\vec{A}-\vec{B}}\norm{\vec{A}-\vec{D}}\cos \angle DAB = \\
-& \norm{\vec{A}-\vec{C}}^2 + \norm{\vec{B}-\vec{A}}\norm{\vec{B}-\vec{C}}\cos \angle CBA \label{4}	
+	& \norm{\vec{B}-\vec{D}}^2 = \norm{\vec{A}-\vec{C}}^2 \\
+	& \label{3}\norm{\vec{B}-\vec{D}} \enspace = \norm{\vec{A}-\vec{C}}
 \end{align}
-Since, we are already given that $\angle DAB = \angle CBA$ and $\norm{\vec{A}-\vec{D}} = \norm{\vec{B}-\vec{C}}$. Then by \ref{4}
-\begin{align}
-& \norm{\vec{B}-\vec{D}}^2 = \norm{\vec{A}-\vec{C}}^2 \\
-& \norm{\vec{B}-\vec{D}} = \norm{\vec{A}-\vec{C}} \\
-&Hence, \enspace BD =AC \enspace proving \enspace  (b). \label{5}
-\end{align}
-Now, by \ref{5} and \ref{6}
-\begin{align}
-	& \cos \angle ABD = \cos \angle BAC \\
-	& \angle ABD = \angle BAC \enspace proving \enspace (c) \label{7}
-\end{align} 
-Since, By Angle Sum Property of a $\triangle$, Sum of all angles of a $\triangle = 180^.$. Thus, third angle of both the triangles $\triangle ABD$ and $\triangle BAC$ are equal.
-\begin{equation}\label{8}
-	\angle ADB = \angle ACB 
+Hence, BD = AC.
+\end{enumerate}
+\begin{enumerate}
+	\item[(c)] From \ref{1}, we find that
+	\begin{multline}
+		 \norm{\vec{B} - \vec{A}}\norm{\vec{B} - \vec{D}}\cos\angle ABD  = \\ \norm{\vec{A} - \vec{B}}\norm{\vec{A} - \vec{C}}\cos\angle BAC \\
+	\end{multline}
+\begin{equation}
+	 \norm{\vec{B} - \vec{D}}\cos\angle ABD \enspace = \enspace \norm{\vec{A} - \vec{C}}\cos\angle BAC
 \end{equation}
-Thus, by \ref{7}, \ref{8} and \ref{9} and AAA congruency criteria $\triangle ABD \cong \triangle BAC.$
+By, \ref{3}
+\begin{align}
+	& \cos\angle ABD \enspace = \enspace \cos\angle BAC \\
+	& \angle ABD = \angle BAC
+\end{align}
+\end{enumerate}
 \end{document}
