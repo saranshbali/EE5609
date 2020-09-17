@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  17 SEP 2020 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  17 SEP 2020 16:32
 entering extended mode
 **./test.tex
 (test.tex
@@ -1719,7 +1719,7 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 File: utxsyc.fd 2000/12/15 v3.1
 )
 (QuadrilateralABCD.tex)
-Underfull \vbox (badness 5147) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{C:/Users/Neeru/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
@@ -1737,8 +1737,8 @@ Package rerunfilecheck Info: File `test.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 350.
  ) 
 Here is how much of TeX's memory you used:
- 41286 strings out of 480790
- 949845 string characters out of 2897302
+ 41285 strings out of 480790
+ 949839 string characters out of 2897302
  1371771 words of memory out of 3000000
  56443 multiletter control sequences out of 15000+200000
  595840 words of font info for 152 fonts, out of 3000000 for 9000
@@ -1755,9 +1755,9 @@ mes/utmb8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmbi8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmri8a.pfb>
-Output written on test.pdf (2 pages, 75354 bytes).
+Output written on test.pdf (2 pages, 75255 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
+ 137 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
