@@ -340,7 +340,20 @@ Substituting in \eqref{6} for  above values of$n_1$ and $n_2$
 & \myvec{ n_1 n_2} \myvec{c_2 \\ c_1} \quad= \myvec{3\\-6} \\
 & \myvec{2 &1 \\ -1 &1} \myvec{c_2 \\ c_1} = \myvec{3\\-6}\label{10}
 \end{align}
-Solving \eqref{10}, we get
+Solving \eqref{10},
+\begin{multline}
+\myvec{2 &1 \\ -1 &1} \myvec{c_2 \\ c_1} = \myvec{3\\-6} \xLeftrightarrow[]{r_2 = r_2 + 2r_1} \\
+\myvec{2 &1 \\ 0 &3} \myvec{c_2 \\ c_1} = \myvec{3\\-9}
+\end{multline}
+\begin{multline}
+	\myvec{2 &1 \\ 0 &3} \myvec{c_2 \\ c_1} = \myvec{3\\-9} \xLeftrightarrow[]{r_2 = r_2/3} \\
+	\myvec{2 &1 \\ 0 &1} \myvec{c_2 \\ c_1} = \myvec{3\\-3}
+\end{multline}
+\begin{multline}
+	\myvec{2 &1 \\ 0 &1} \myvec{c_2 \\ c_1} = \myvec{3\\-3} \xLeftrightarrow[]{r_1 = r_1-r_2} \\
+	\myvec{2 &0 \\ 0 &1} \myvec{c_2 \\ c_1} = \myvec{6\\-3}
+\end{multline}
+Hence, we found out
 \begin{align}
 	&c_1 = -3 \\
 	&c_2 = 3
