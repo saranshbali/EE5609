@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  26 SEP 2020 16:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  26 SEP 2020 17:00
 entering extended mode
 **./Orthogonality.tex
 (Orthogonality.tex
@@ -1727,8 +1727,8 @@ Package rerunfilecheck Info: File `Orthogonality.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
  ) 
 Here is how much of TeX's memory you used:
- 41188 strings out of 480790
- 947905 string characters out of 2897302
+ 41187 strings out of 480790
+ 947890 string characters out of 2897302
  1371156 words of memory out of 3000000
  56374 multiletter control sequences out of 15000+200000
  595840 words of font info for 152 fonts, out of 3000000 for 9000
@@ -1745,9 +1745,9 @@ es/utmb8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
 es/utmbi8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmr8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on Orthogonality.pdf (1 page, 60438 bytes).
+Output written on Orthogonality.pdf (1 page, 60317 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
+ 99 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
