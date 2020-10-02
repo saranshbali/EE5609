@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  30 SEP 2020 17:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  2 OCT 2020 22:49
 entering extended mode
 **./Assignment5.tex
 (Assignment5.tex
@@ -1716,40 +1716,45 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1{C:/Users/Neeru/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-] [2
-
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
+Overfull \hbox (30.02756pt too wide) detected at line 360
+[]
+ []
+
+[2]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
  (Assignment5.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 378.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
 Package rerunfilecheck Info: File `Assignment5.out' has not changed.
 (rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
  ) 
 Here is how much of TeX's memory you used:
- 41209 strings out of 480790
- 948115 string characters out of 2897302
- 1385185 words of memory out of 3000000
- 56376 multiletter control sequences out of 15000+200000
- 598506 words of font info for 156 fonts, out of 3000000 for 9000
+ 41231 strings out of 480790
+ 948369 string characters out of 2897302
+ 1397375 words of memory out of 3000000
+ 56381 multiletter control sequences out of 15000+200000
+ 598744 words of font info for 157 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 60i,18n,91p,506b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,19n,91p,506b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb
 ><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.
 pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rt
 xsc.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfont
 s/txex.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
-onts/txsy.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
-es/utmb8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
-es/utmbi8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmr8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmri8a.pfb>
-Output written on Assignment5.pdf (2 pages, 72667 bytes).
+onts/txsy.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+txfonts/txsya.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/txfonts/txsyc.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1
+/urw/times/utmb8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1
+/urw/times/utmbi8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/times/utmr8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on Assignment5.pdf (2 pages, 88162 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 

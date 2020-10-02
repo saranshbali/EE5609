@@ -248,7 +248,7 @@ https://github.com/saranshbali/EE5609/blob/master/Assignment1/Code/assignment1_n
 \end{lstlisting}
 %
 Download all latex-tikz codes from 
-%
+% 
 \begin{lstlisting}
 https://github.com/saranshbali/EE5609/blob/master/Orthogonality
 \end{lstlisting}
@@ -260,10 +260,20 @@ Through what angle must the axes be turned to reduce the equation
 \end{align}
 to the form
 \begin{align}
-	\vec{x}^T\myvec{ 0 & 1/2 \\ 1/2 & 0}\vec{x} = c
+	\vec{x}^T\myvec{ 0 & 1/2 \\ 1/2 & 0}\vec{x} = c \label{3}
 \end{align}
 where c is a constant.
 \section{Solution}
+\begin{lemma}\label{4}
+	Orthonormal matrices preserves angle.
+\begin{proof}
+	Let $\vec{u}$ and $\vec{v}$ be vectors such that angle between $\vec{u}$ and $\vec{v}$ is $\theta_1$. Let $\vec{Q}$ be given orthonormal matrix, and let $\theta_2$ be angle between $\vec{Q}\vec{u}$ and $\vec{Q}\vec{v}$.
+\begin{align}
+& \cos\theta_1 = \frac{\vec{u}^T\vec{v}}{\norm{\vec{u}}\norm{\vec{v}}} \\
+& \cos\theta_2 = \frac{(\vec{Q}\vec{u})^T(\vec{Q}\vec{v})}{\norm{\vec{Q}\vec{u}}\vec{Q}\vec{v}}= \frac{\vec{u}^T\vec{v}}{\norm{\vec{u}}\norm{\vec{v}}} = \cos\theta_1
+\end{align}
+\end{proof}
+\end{lemma}
 The general second order equation can be expressed as follows,
 \begin{align}
 	\vec{x}^T\vec{V}\vec{x} + 2\vec{u}^T\vec{x} + f = 0 \label{2}
@@ -324,12 +334,45 @@ Thus,
 \begin{align}
 	\vec{P} = \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}
 \end{align}
-Therefore $\vec{V}$ can be written as,
+Since,
+\begin{align}
+	\abs{\vec{V}} =
+	\begin{array}{|cc|}
+		1 & -1\\ -1 & -1
+	\end{array}=-2 \not=0 
+\end{align}
+and $\lambda_1 >0$ and $\lambda_2< 0$. Thus, \eqref{1} represents a hyperbola
+
+Also $\vec{V}$ can be written as,
 \begin{align}
 	\vec{V} = \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{\sqrt{2} &0 \\ 0 & -\sqrt{2}} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}
 \end{align}
+Using lemma \eqref{4} and the fact that exchanging rows is multiplication by an orthonormal matrix, Thus $\vec{V}$ can be further written as 
+\begin{align}
+	\vec{V} = \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{ 0 & -\sqrt{2}\\ \sqrt{2} & 0} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}	
+\end{align} 
 Now, \eqref{1} can be transformed as
 \begin{align}
-	\vec{x}^T\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{\sqrt{2} &0 \\ 0 & -\sqrt{2}} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x} = 1
+& \vec{x}^T\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{0 &-\sqrt{2}\\ \sqrt{2} & 0} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x} = 1 \\
+& c\vec{x}^T\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{0 & -\sqrt{2}\\ \sqrt{2} & 0} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x} = c \\
+& \vec{x}^T\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{0 & -c\sqrt{2}\\ c\sqrt{2} & 0} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x} = c \\
+& \brak{\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x}}^T\myvec{0 & -c\sqrt{2}\\ c\sqrt{2} & 0}\brak{\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x}} = c \label{5}
 \end{align} 
+Consider the rotation transformation
+\begin{align}
+	& \vec{x} = \vec{P}\vec{y} \\
+	& \vec{x} = \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{y} \\
+	& \vec{y} = \vec{P^-}^1\vec{x} \\
+\implies & \vec{y} =\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}} \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}}  & \frac{1}{4+2\sqrt{2}}} \vec{x} \qquad (\vec{P}^T = \vec{P^-}^1) \label{6 }
+\end{align}
+Using \eqref{6 }in \eqref{5}, we have
+\begin{align}
+	\vec{y}^T\myvec{0 & -c\sqrt{2} \\ c\sqrt{2} & 0}\vec{y} = c \label{7}
+\end{align}
+Equation \eqref{1} and \eqref{7} are same with 
+\begin{align}
+-& c\sqrt{2} = 1/2 \\
+&  c\sqrt{2} = 1/2 \\
+\implies & c= 0
+\end{align}
 \end{document}
