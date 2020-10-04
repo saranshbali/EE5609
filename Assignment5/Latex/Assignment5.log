@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  4 OCT 2020 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.2)  4 OCT 2020 14:36
 entering extended mode
 **./Assignment5.tex
 (Assignment5.tex
@@ -1753,10 +1753,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
  ) 
 Here is how much of TeX's memory you used:
- 41251 strings out of 480790
- 948757 string characters out of 2897302
+ 41250 strings out of 480790
+ 948739 string characters out of 2897302
  1394484 words of memory out of 3000000
- 56397 multiletter control sequences out of 15000+200000
+ 56396 multiletter control sequences out of 15000+200000
  598744 words of font info for 157 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,19n,91p,506b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1773,7 +1773,7 @@ lic/txfonts/txsyc.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmbi8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmr8a.pfb><C:/Users/Neeru/AppData/Local/Programs/MiKTeX/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on Assignment5.pdf (3 pages, 157639 bytes).
+Output written on Assignment5.pdf (3 pages, 157460 bytes).
 PDF statistics:
  165 PDF objects out of 1000 (max. 8388607)
  48 named destinations out of 1000 (max. 500000)
