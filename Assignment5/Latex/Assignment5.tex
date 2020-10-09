@@ -260,29 +260,33 @@ Through what angle must the axes be turned to reduce the equation
 \end{align}
 to the form
 \begin{align}
-	\vec{x}^T\myvec{ 0 & 1/2 \\ 1/2 & 0}\vec{x} = c \label{3}
+	\vec{x}^T\myvec{ 0 & 1/2 \\ 1/2 & 0}\vec{x} = c \label{2}
 \end{align}
 where c is a constant.
 \section{Solution}
-\begin{lemma}\label{4}
-	Orthonormal matrices preserves angle.
-\begin{proof}
-	Let $\vec{u}$ and $\vec{v}$ be vectors such that angle between $\vec{u}$ and $\vec{v}$ is $\theta_1$. Let $\vec{Q}$ be given orthonormal matrix, and let $\theta_2$ be angle between $\vec{Q}\vec{u}$ and $\vec{Q}\vec{v}$.
-\begin{align}
-& \cos\theta_1 = \frac{\vec{u}^T\vec{v}}{\norm{\vec{u}}\norm{\vec{v}}} \\
-& \cos\theta_2 = \frac{(\vec{Q}\vec{u})^T(\vec{Q}\vec{v})}{\norm{\vec{Q}\vec{u}}\vec{Q}\vec{v}}= \frac{\vec{u}^T\vec{v}}{\norm{\vec{u}}\norm{\vec{v}}} = \cos\theta_1
-\end{align}
-\end{proof}
-\end{lemma}
 The general second order equation can be expressed as follows,
 \begin{align}
-	\vec{x}^T\vec{V}\vec{x} + 2\vec{u}^T\vec{x} + f = 0 \label{2}
+	\vec{x}^T\vec{V}\vec{x} + 2\vec{u}^T\vec{x} + f = 0 \label{3}
 \end{align}
-From \eqref{1} and \eqref{2}
+From \eqref{1} and \eqref{3}
 \begin{align}
-	& \vec{V} = \myvec{1 & -1 \\ -1 & -1} \\
+	& \vec{V} = \myvec{1 & -1 \\ -1 & -1} \\ 
 	& \vec{u} = \myvec{0 \\0}\\
 	& f = -1
+\end{align}
+Also,
+\begin{align}
+	\begin{array}{|cc|}
+		\vec{V} & u\\ \vec{u}^T & f
+	\end{array} = \begin{array}{|ccc|}
+	1 & -1 & 0 \\ -1  & -1 &  0 \\ 0 & 0&-1
+\end{array}  = 2 \not=0
+    \end{align}
+Also, determinant of $\vec{V}$ is
+\begin{align}
+ \begin{array}{|cc|}
+ 	1 & -1\\ -1 & -1
+ \end{array} = -2 < 0
 \end{align}
 The matrix $\vec{V}$ can be decomposed as,
 \begin{align}
@@ -314,7 +318,7 @@ Eigen vector for $\lambda_1$=$\sqrt{2}$,
 \end{multline}
 Hence,
 \begin{align}
-\vec{P_1}= \myvec{1-\sqrt{2} \\ 1} = \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}}}
+\vec{P_1}= \myvec{1 \\ 1-\sqrt{2}} = \myvec{\frac{1}{\sqrt{4-2\sqrt{2}}} \\ \frac{1-\sqrt{2}}{\sqrt{4-2\sqrt{2}}}}
 \end{align}
 Eigen vector for $\lambda_2$=-$\sqrt{2}$,
 \begin{multline}
@@ -327,54 +331,120 @@ Eigen vector for $\lambda_2$=-$\sqrt{2}$,
 \end{multline}
 Hence,
 \begin{align}
-	\vec{P_2}= \myvec{1+\sqrt{2} \\ 1} = \myvec{\frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4+2\sqrt{2}}}
+	\vec{P_2}= \myvec{1\\1 + \sqrt{2} } = \myvec{\frac{1}{\sqrt{4+2\sqrt{2}}} \\ \frac{1 + \sqrt{2}}{\sqrt{4+2\sqrt{2}}}}
 \end{align}
 Thus, 
 \begin{align}
-	\vec{P} = \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}
+	\vec{P} = \myvec{\frac{1}{\sqrt{4-2\sqrt{2}}} & \frac{1}{\sqrt{4+2\sqrt{2}}} \\ \frac{1-\sqrt{2}}{\sqrt{4-2\sqrt{2}}} & \frac{1 + \sqrt{2}}{\sqrt{4+2\sqrt{2}}} }
 \end{align}
-Since,
-\begin{align}
-	\abs{\vec{V}} =
-	\begin{array}{|cc|}
-		1 & -1\\ -1 & -1
-	\end{array}=-2 \not=0 
-\end{align}
-and $\lambda_1 >0$ and $\lambda_2< 0$. Thus, \eqref{1} represents a hyperbola
+Since $|\vec{V}| <0$ and $\lambda_1 >0$ and $\lambda_2< 0$. Thus, \eqref{1} represents a hyperbola.\\
 Also $\vec{V}$ can be written as,
 \begin{align}
 	\vec{V} = \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{\sqrt{2} &0 \\ 0 & -\sqrt{2}} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}
 \end{align}
-Using lemma \eqref{4} and the fact that exchanging rows is multiplication by an orthonormal matrix, Thus $\vec{V}$ can be further written as 
+The major axes and the minor axes for the hyperbola can be be otained as:
+\begin{multline}
+	\vec{A} = \myvec{\sqrt{\frac{\lambda_1}{\vec{u}^T\vec{V^-}^1\vec{u}-f}} & 0 \\ 0 & \sqrt{\frac{\lambda_2}{f-\vec{u}^T\vec{V^-}^1\vec{u}}} } = \\ \myvec{\sqrt{\sqrt{2}} & 0 \\ 0 & \sqrt{\sqrt{2}}} = \myvec{\vec{A_1} & \vec{A_2}}
+\end{multline}
+Now, finding angle between major axes $\vec{A_1}$ and the x-axis $\vec{e_1}$
 \begin{align}
-	\vec{V} = \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{ 0 & -\sqrt{2}\\ \sqrt{2} & 0} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}	
-\end{align} 
-Now, \eqref{1} can be transformed as
-\begin{align}
-& \vec{x}^T\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{0 &-\sqrt{2}\\ \sqrt{2} & 0} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x} = 1 \\
-& c\vec{x}^T\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{0 & -\sqrt{2}\\ \sqrt{2} & 0} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x} = c \\
-& \vec{x}^T\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}} \myvec{0 & -c\sqrt{2}\\ c\sqrt{2} & 0} \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x} = c \\
-& \brak{\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x}}^T\myvec{0 & -c\sqrt{2}\\ c\sqrt{2} & 0}\brak{\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}}  \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{x}} = c \label{5}
-\end{align} 
-Consider the rotation transformation
-\begin{align}
-	& \vec{x} = \vec{P}\vec{y} \\
-	& \vec{x} = \myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1+\sqrt{2}}{4+2\sqrt{2}} \\ \frac{1}{4-2\sqrt{2}} & \frac{1}{4+2\sqrt{2}}}\vec{y} \\
-	& \vec{y} = \vec{P^-}^1\vec{x} \\
-\implies & \vec{y} =\myvec{\frac{1-\sqrt{2}}{4-2\sqrt{2}} & \frac{1}{4-2\sqrt{2}} \\ \frac{1+\sqrt{2}}{4+2\sqrt{2}}  & \frac{1}{4+2\sqrt{2}}} \vec{x} \qquad (\vec{P}^T = \vec{P^-}^1) \label{6 }
+	& \vec{A_1} = \myvec{\sqrt{\sqrt{2}} \\ 0}  \\
+	& \vec{e_1} = \myvec{1 \\ 0} \\
+	& \vec{A_1}^T\vec{e_1} = \norm{\vec{A_1}}\norm{\vec{e_1}}\cos\theta_1 \\
+	& \implies \sqrt{\sqrt{2}} = \sqrt{\sqrt{2}} \cos\theta_1 \\
+	& \implies \cos\theta_1 = 1 \implies \theta_1 = 0 \label{4}
 \end{align}
-Using \eqref{6 }in \eqref{5}, we have
+Now, consider \eqref{2}, and compare it will \eqref{3}
 \begin{align}
-	\vec{y}^T\myvec{0 & -c\sqrt{2} \\ c\sqrt{2} & 0}\vec{y} = c \label{7}
+	& \vec{V_1} = \myvec{1 & -1 \\ -1 & -1} \\ 
+	& \vec{u_1} = \myvec{0 \\0}\\
+	& f_1 = -c
 \end{align}
-Equation \eqref{1} and \eqref{7} are same with 
+Also,
 \begin{align}
-- c\sqrt{2} = 1/2 \quad and \quad  c\sqrt{2} = 1/2 \implies & c= 0
+	\begin{array}{|cc|}
+		\vec{V} & u\\ \vec{u}^T & f
+	\end{array} = \begin{array}{|ccc|}
+		0 & \frac{1}{2} & 0 \\  \frac{1}{2} & 0  &  0 \\ 0 & 0&-c
+	\end{array}  = c/4 \label{5}
 \end{align}
-The orthogonal
+The value obtained in \eqref{5} cannot be zero as \eqref{2} refers to rotation of \eqref{1} and \eqref{1} is a hyperbola. Thus, $c \not=0$. \\
+Also, determinant of $\vec{V_1}$ is
+\begin{align}
+	\begin{array}{|cc|}
+		0 & 1/2\\ 1/2 & 0
+	\end{array} = -1/4 < 0
+\end{align}
+Similarly, the matrix $\vec{V_1}$ can be decomposed as,
+\begin{align}
+	\vec V_1= \vec{Q}\vec{D}\vec{Q}^T \qquad \vec{D} = \myvec{\lambda_1 & 0 \\ 0 & \lambda_2}
+\end{align}
+where $\lambda_1$ and $\lambda_2$ are the eigen values of $\vec{V}_1$, and $\vec{Q}$ contains the eigen vectors corresponding to the eigen values $\lambda_1$ and $\lambda_2$. 
 
-The plot for \eqref{1} and \eqref{3} are plotted below:
-
+Eigen values of $\vec{V_1}$ are,
+\begin{align}
+	& \abs{\vec{V_1}-\lambda\vec{I}} = 0 \\
+	\implies	& \begin{array}{|cc|}
+		-\lambda & 1/2 \\ 1/2 & -\lambda
+	\end{array}=0 \\
+	\implies & \brak{-\lambda}\brak{-\lambda} -1/4 =0\\
+	\implies &\lambda^2 -1/4 =0 \\
+	\implies & \lambda = \pm 1/2, \qquad \vec{D} = \myvec{1/2 & 0 \\ 0 & - 1/2} 
+\end{align}
+Eigen vector for $\lambda_1$=$1/2$,
+\begin{multline}
+	\vec{V_1}-\lambda_1\vec{I} = \myvec{-1/2 & 1/2  \\ 1/2 & -1/2}\\
+	\xleftrightarrow[]{r_1/-1/2} \myvec{1 & -1 \\ -1/2 & 1/2}
+\end{multline}
+\begin{multline}
+	\vec{V_1}-\lambda_1\vec{I} = \myvec{1 & -1 \\ -1/2 & 1/2} \\
+	\xleftrightarrow[]{r_2 = r_1 + 2r_2} \myvec{1 & -1 \\ 0 & 0}
+\end{multline}
+Hence,
+\begin{align}
+	\vec{Q_1}= \myvec{1 \\ 1} = \myvec{\frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}}}
+\end{align}
+Eigen vector for $\lambda_2 = -1/2$,
+\begin{multline}
+	\vec{V_1}-\lambda_2\vec{I} = \myvec{1/2 & 1/2 \\ 1/2 & 1/2}\\
+	\xleftrightarrow[]{r_1/1/2} \myvec{1 & 1 \\ 1/2 & 1/2}
+\end{multline}
+\begin{multline}
+	\vec{V_1}-\lambda_2\vec{I} = \myvec{1 & 1 \\ 1/2 & 1/2} \\
+	\xleftrightarrow[]{r_2 = 2r_2-r_1} \myvec{1 & 1 \\ 0 & 0}
+\end{multline}
+Hence,
+\begin{align}
+	\vec{Q_2}= \myvec{1\\1} = \myvec{ \frac{1}{\sqrt{2}} \\ \frac{-1}{\sqrt{2}}}
+\end{align}
+Thus, 
+\begin{align}
+	\vec{Q} = \myvec{\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & \frac{-1}{\sqrt{2}}}
+\end{align}
+Since $|\vec{V_1}| <0$ for $c \not= 0$ and $\lambda_1 >0$ and $\lambda_2< 0$. Thus, \eqref{2} represents a hyperbola.\\
+Also $\vec{V_1}$ can be written as,
+\begin{align}
+	\vec{V_1} = \myvec{\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & \frac{-1}{\sqrt{2}}} 
+	\myvec{1/2 & 0 \\ 0 & -1/2 }\myvec{\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & \frac{-1}{\sqrt{2}}}
+\end{align}
+The major axes and the minor axes for the hyperbola given by \eqref{2} can be be otained as:
+\begin{multline}
+	\vec{B} = \myvec{\sqrt{\frac{\lambda_1}{\vec{u}^T\vec{V^-}^1\vec{u}-f}} & 0 \\ 0 & \sqrt{\frac{\lambda_2}{f-\vec{u}^T\vec{V^-}^1\vec{u}}} } \\ = \myvec{\sqrt{\frac{1}{2c}} & 0 \\ 0 & \sqrt{\frac{1}{2c}} } =
+	\myvec{\vec{B_1} & \vec{B_2}}
+\end{multline}
+Now, finding angle between major axes $\vec{B_1}$ and the x-axis $\vec{e_1}$
+\begin{align}
+	& \vec{B_1} = \myvec{\sqrt{\frac{1}{2c}} \\ 0}  \\
+	& \vec{e_1} = \myvec{1 \\ 0} \\
+	& \vec{B_1}^T\vec{e_1} = \norm{\vec{B_1}}\norm{\vec{e_1}}\cos\theta_2 \\
+	& \implies \sqrt{\frac{1}{2c}} = \sqrt{\frac{1}{2c}} \cos\theta_2 \\
+	& \implies \cos\theta_2 = 1 \implies \theta_2 = 0 \label{6}
+\end{align}
+Let $\theta$ be the angle \eqref{1} is rotated about axes to get \eqref{2}. Thus
+\begin{align}
+	\theta = \abs{\theta_1- \theta_2} = \abs{0 - 0 } = 0.
+\end{align}
+Plotting \eqref{1} and \eqref{2}, we found that indeed axes is rotated by $0$ degree.
 \begin{figure}[!htb]
 
 	
