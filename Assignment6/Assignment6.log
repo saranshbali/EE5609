@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  22 OCT 2020 04:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  23 OCT 2020 01:39
 entering extended mode
 **./Assignment6.tex
 (Assignment6.tex
@@ -1837,11 +1837,11 @@ Package rerunfilecheck Info: File `Assignment6.out' has not changed.
 (rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
  ) 
 Here is how much of TeX's memory you used:
- 43754 strings out of 480236
- 1085755 string characters out of 2877194
- 1450904 words of memory out of 3000000
+ 43766 strings out of 480236
+ 1085899 string characters out of 2877194
+ 1467904 words of memory out of 3000000
  59447 multiletter control sequences out of 15000+200000
- 598564 words of font info for 157 fonts, out of 3000000 for 9000
+ 601256 words of font info for 161 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  84i,18n,105p,506b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.
@@ -1856,9 +1856,9 @@ H BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/User
 s/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><
 C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on Assignment6.pdf (3 pages, 86152 bytes).
+Output written on Assignment6.pdf (3 pages, 89348 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
