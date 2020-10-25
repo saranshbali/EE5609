@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  25 OCT 2020 03:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  26 OCT 2020 01:23
 entering extended mode
 **./Assignment7.tex
 (Assignment7.tex
@@ -1816,21 +1816,27 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1{C:/Users/SARANSH BALI/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
-] [2
-
 ]
+Overfull \hbox (13.08246pt too wide) detected at line 338
+ []$[]   [] \OT1/txr/bx/n/12 A \OT1/txr/m/n/12 = [] []$ 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
 (Assignment7.aux)
 Package rerunfilecheck Info: File `Assignment7.out' has not changed.
 (rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
  ) 
 Here is how much of TeX's memory you used:
- 43706 strings out of 480236
- 1085127 string characters out of 2877194
- 1462904 words of memory out of 3000000
+ 43716 strings out of 480236
+ 1085277 string characters out of 2877194
+ 1455904 words of memory out of 3000000
  59440 multiletter control sequences out of 15000+200000
  598564 words of font info for 157 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 84i,13n,105p,506b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 84i,14n,105p,506b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.
 enc}<C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
 onts/rtxmi.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1
@@ -1841,9 +1847,9 @@ cal/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/SARANSH BALI/
 AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/SARANS
 H BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/User
 s/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Assignment7.pdf (2 pages, 61052 bytes).
+Output written on Assignment7.pdf (2 pages, 63536 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
