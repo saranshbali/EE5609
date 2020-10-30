@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  31 OCT 2020 01:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  31 OCT 2020 01:26
 entering extended mode
 **./assignment9.tex
 (assignment9.tex
@@ -1854,9 +1854,9 @@ Package rerunfilecheck Info: File `assignment9.out' has not changed.
 (rerunfilecheck)             Checksum: 8EC0929A453C676A4E90DCF67392AC12;132.
  ) 
 Here is how much of TeX's memory you used:
- 43779 strings out of 480236
- 1086289 string characters out of 2877194
- 1444474 words of memory out of 3000000
+ 43780 strings out of 480236
+ 1086304 string characters out of 2877194
+ 1443474 words of memory out of 3000000
  59486 multiletter control sequences out of 15000+200000
  598711 words of font info for 158 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1875,9 +1875,9 @@ mes/utmb8a.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmbi8a.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fon
 ts/type1/urw/times/utmr8a.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiK
 TeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on assignment9.pdf (2 pages, 81791 bytes).
+Output written on assignment9.pdf (2 pages, 82304 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
