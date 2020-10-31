@@ -260,7 +260,7 @@ Let $\mathbb{C}$ be the complex vector space of $2\times2$ matrices with complex
 \begin{align}
 	\vec{B} = \myvec{1 & -1 \\ -4 & 4}
 \end{align}
-and let $\vec{T}$ be the linear operator on $\mathbb{C}^{2\times2}$  defined by $\vec{TA} = \vec{BA}$. What is the rank of $\vec{T}$? Can you describe $\vec{T^2}$?   
+and let $\vec{T}$ be the linear operator on $\mathbb{C}^{2\times2}$  defined by $\vec{T(A)} = \vec{BA}$. What is the rank of $\vec{T}$? Can you describe $\vec{T^2}$?   
 \section{Results Used}
 \begin{theorem}\label{1}
 Let $\vec{V}$ and $\vec{W}$ be vector spaces, and let $\vec{T}$: $\vec{V}$$\to$ $\vec{W}$ be linear. If $\vec{V}$ has a basis $\beta$ = \{$\vec{x_1}, \vec{x_2},...,\vec{x_n}$\}, then
@@ -300,20 +300,7 @@ Now, we compute
 	& = \myvec{1 & -1 \\ -4 & 4}\myvec{0 & 0 \\ 0 & 1} \\
 	& = \myvec{0 & -1 \\ 0 & 4} \label{6}
 \end{align}
-By \eqref{3} and \eqref{5}, we find out 
-\begin{align}
-\vec{T(A_{11})} = -\vec{T(A_{21})}\label{7}
-\end{align}
-Also, by \eqref{4} and \eqref{6}, we find out that
-\begin{align}
-\vec{T(A_{12})} = -\vec{T(A_{22})}\label{8}
-\end{align}
-Thus, from \eqref{2},\eqref{7} and \eqref{8}, we have
-\begin{multline}
-span\{\vec{T(A_{11})}, \vec{T(A_{12})},\vec{T(A_{21})},\vec{T(A_{22})}\} = \\
-span\{\vec{T(A_{11})}, \vec{T(A_{12})}\}	
-\end{multline}
-Hence,
+Thus, from theorem \eqref{1}, we have
 \begin{align}
 	R\vec{(T)} = span\{\vec{T(A_{11})}, \vec{T(A_{12})}\}
 \end{align}
