@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  31 OCT 2020 14:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  31 OCT 2020 23:20
 entering extended mode
 **./assignment9.tex
 (assignment9.tex
@@ -1831,16 +1831,6 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 fd"
 File: utxsyc.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    Trying to load font information for OMS+txr on input line 2
-66.
-
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxr.
-fd"
-File: omstxr.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `OMS/txr/m/it' in size <12> not available
-(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 266.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1{C:/Users/SARANSH BALI/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
@@ -1851,33 +1841,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ]
 (assignment9.aux)
 Package rerunfilecheck Info: File `assignment9.out' has not changed.
-(rerunfilecheck)             Checksum: 8EC0929A453C676A4E90DCF67392AC12;132.
+(rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
  ) 
 Here is how much of TeX's memory you used:
- 43775 strings out of 480236
- 1086253 string characters out of 2877194
- 1445475 words of memory out of 3000000
- 59484 multiletter control sequences out of 15000+200000
- 598711 words of font info for 158 fonts, out of 3000000 for 9000
+ 43759 strings out of 480236
+ 1085913 string characters out of 2877194
+ 1450475 words of memory out of 3000000
+ 59468 multiletter control sequences out of 15000+200000
+ 599789 words of font info for 159 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 84i,13n,105p,506b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 84i,18n,105p,506b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.
 enc}<C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/txfonts/rtxi.pfb><C:/Users/SARANSH BALI/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/SARANSH BALI/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/SARANSH BALI/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/SA
-RANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txex.pfb><C
-:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t
-xsy.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1
-/urw/times/utmbi8a.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fon
-ts/type1/urw/times/utmr8a.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiK
-TeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on assignment9.pdf (2 pages, 80430 bytes).
+onts/type1/public/txfonts/rtxr.pfb><C:/Users/SARANSH BALI/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/SARANSH BALI/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/txfonts/txex.pfb><C:/Users/SARANSH BALI/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/txsy.pfb><C:/Users/SAR
+ANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Us
+ers/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pf
+b><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/ut
+mr8a.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on assignment9.pdf (2 pages, 70888 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
