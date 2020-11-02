@@ -285,7 +285,7 @@ We now define a bijection $\sigma: S \to T$ as
 \end{align}
 We now define a function $G$ from $F^{m\times n}$ to $F^{mn}$ as follows. Let $\vec{A} \in F^{m\times n}$. Then map $\vec{A}$ to the $mn$ tupple that has $\vec{A_{ij}}$ in the $\sigma(i,j)$ position. In other words,
 \begin{align}
-A \to \brak{\vec{A_{11}},\vec{A_{12}},...,\vec{A_{1n}},...,\vec{A_{n1}},\vec{A_{n2}},...,\vec{A_{nn}}}
+A \to \brak{\vec{A_{11}},\vec{A_{12}},...,\vec{A_{1n}},...,\vec{A_{m1}},\vec{A_{m2}},...,\vec{A_{mn}}}
 \end{align}
 Since, addition in $F^{m\times n}$ and in $F^{mn}$ is performed component-wise, $G\brak{\vec{A+B}} = G(\vec{A}) + G(\vec{B})$ and scalar multiplication in $F^{m\times n}$ and in $F^{mn}$ is also defined component-wise as $G\brak{c\vec{A}}= cG\brak{\vec{A}}$. Thus $G$ is a linear transformation.
 
@@ -294,8 +294,8 @@ Now, we try to prove that $G$ is one to one. For this,
  G(\vec{A}) = G(\vec{B})
 \end{align}
 \begin{multline}
-\implies \brak{\vec{A_{11}},\vec{A_{12}},...,\vec{A_{1n}},...,\vec{A_{n1}},\vec{A_{n2}},...,\vec{A_{nn}}}=\\
-\brak{\vec{B_{11}},\vec{B_{12}},...,\vec{B_{1n}},...,\vec{B_{n1}},\vec{B_{n2}},...,\vec{B_{nn}}}\label{3}
+\implies \brak{\vec{A_{11}},\vec{A_{12}},...,\vec{A_{1n}},...,\vec{A_{m1}},\vec{A_{m2}},...,\vec{A_{mn}}}=\\
+\brak{\vec{B_{11}},\vec{B_{12}},...,\vec{B_{1n}},...,\vec{B_{m1}},\vec{B_{m2}},...,\vec{B_{mn}}}\label{3}
 \end{multline}
 \eqref{3}, is true if and only if 
 \begin{align}
