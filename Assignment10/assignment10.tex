@@ -2,21 +2,22 @@
 %
 \usepackage{setspace}
 \usepackage{gensymb}
-%\doublespacing
+
 \singlespacing
 
-%\usepackage{graphicx}
-%\usepackage{amssymb}
-%\usepackage{relsize}
+\usepackage{graphicx}
+\graphicspath{{./fig/}}
+\usepackage{afterpage}
+\newcommand\myemptypage{
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage
+    }
 \usepackage[cmex10]{amsmath}
-%\usepackage{amsthm}
-%\interdisplaylinepenalty=2500
-%\savesymbol{iint}
-%\usepackage{txfonts}
-%\restoresymbol{TXF}{iint}
-%\usepackage{wasysym}
 \usepackage{amsthm}
-%\usepackage{iithtlc}
+\usepackage{adjustbox}
+\usepackage{amssymb}
 \usepackage{mathrsfs}
 \usepackage{txfonts}
 \usepackage{stfloats}
@@ -24,11 +25,10 @@
 \usepackage{cite}
 \usepackage{cases}
 \usepackage{subfig}
-%\usepackage{xtab}
+
 \usepackage{longtable}
 \usepackage{multirow}
-%\usepackage{algorithm}
-%\usepackage{algpseudocode}
+
 \usepackage{enumitem}
 \usepackage{mathtools}
 \usepackage{steinmetz}
@@ -36,10 +36,11 @@
 \usepackage{circuitikz}
 \usepackage{verbatim}
 \usepackage{tfrupee}
+\usepackage{inputenc}
 \usepackage[breaklinks=true]{hyperref}
-%\usepackage{stmaryrd}
+
 \usepackage{tkz-euclide} % loads  TikZ and tkz-base
-%\usetkzobj{all}
+
 \usetikzlibrary{calc,math}
 \usepackage{listings}
     \usepackage{color}                                            %%
@@ -54,11 +55,9 @@
 \usepackage{multicol}
 \usepackage{chngcntr}
 %\usepackage{enumerate}
-\usepackage{amssymb}
-%\usepackage{wasysym}
-%\newcounter{MYtempeqncnt}
+
+
 \DeclareMathOperator*{\Res}{Res}
-%\renewcommand{\baselinestretch}{2}
 \renewcommand\thesection{\arabic{section}}
 \renewcommand\thesubsection{\thesection.\arabic{subsection}}
 \renewcommand\thesubsubsection{\thesubsection.\arabic{subsubsection}}
@@ -155,9 +154,7 @@ columns=fullflexible
 \vspace{3cm}
 \title{Assignment 10}
 \author{Saransh Bali}
-%\title{
-%	\logo{Matrix Analysis through Octave}{\begin{center}\includegraphics[scale=.24]{tlc}\end{center}}{}{HAMDSP}
-%}
+%\title{}
 % paper title
 % can use linebreaks \\ within to get better formatting as desired
 %\title{Matrix Analysis through Octave}
@@ -241,73 +238,99 @@ columns=fullflexible
 \begin{abstract}
 This a simple document that explains that $\vec{F^{m\times n}}$ is isomorphic to $\vec{F^{mn}}$.
 \end{abstract}
-%Download all python codes from 
-%
-%\begin{lstlisting}
-%https://github.com/saranshbali/EE5609/blob/master/Assignment1/Code/assignment1_n.ipynb
-%\end{lstlisting}
-%
-Download all latex-tikz codes from 
-%
+Download latex-tikz from
 \begin{lstlisting}
 https://github.com/saranshbali/EE5609/blob/master/Assignment10
 \end{lstlisting}
 %
 \section{Problem}
 Show that $\vec{F^{m\times n}}$ is isomorphic to $\vec{F^{mn}}$.
-\section{Basic Definition}
-A linear map $\vec{T}\in \vec{L(V,W)}$ is called invertible if there exists a linear map $\vec{S}\in \vec{L(W,V)}$ such that $\vec{ST}$ equals the identity map on $\vec{V}$ and $\vec{TS}$ equals the identity map on $\vec{W}$.
-
-A linear map $\vec{S}\in \vec{L(W,V)}$ satisfying $\vec{ST=I_{V}}$ and $\vec{TS=I_{W}}$ is called an inverse of $\vec{T}$.
-
-Two vector spaces $\vec{V}$ and $\vec{W}$ are called isomorphic if there is an isomorphism from one vector space onto the other one. An isomorphism is an invertible linear map.
-\section{Some results used}
-\begin{theorem}\label{1}
-The space of all $m \times n$ matrices over the field $\vec{F}$ has dimension $mn$.
-\end{theorem}
-\begin{theorem}\label{2}
-Let $\vec{V}$ and $\vec{W}$ be finite-dimensional vector spaces over the field $\vec{F}$ such that dim $\vec{V}$ = dim $\vec{W}$. If T is a linear transformation from $\vec{V}$ into $\vec{W}$, then the following are equivalent:	
-\begin{enumerate}
-	\item $\vec{T}$ is invertible.
-	\item $\vec{T}$ is non-singular.
-	\item $\vec{T}$ is onto, that is, range of $\vec{T}$ is $\vec{W}$.
-\end{enumerate}
-\end{theorem}
-\section{Solution}
-We define set $S$ and set $T$ as
-\begin{align}
-& S = \{\brak{a,b}: a,b \in \mathbb{N}, 1 \leq a \leq m, 1 \leq b \leq n \} \\
-& T = \{ 1,2,...,mn\}
-\end{align}
-We now define a bijection $\sigma: S \to T$ as 
-\begin{align}
-\brak{a,b} \to	\brak{a-1}n + b	
-\end{align}
-We now define a function $G$ from $F^{m\times n}$ to $F^{mn}$ as follows. Let $\vec{A} \in F^{m\times n}$. Then map $\vec{A}$ to the $mn$ tupple that has $\vec{A_{ij}}$ in the $\sigma(i,j)$ position. In other words,
-\begin{align}
-A \to \brak{\vec{A_{11}},\vec{A_{12}},...,\vec{A_{1n}},...,\vec{A_{m1}},\vec{A_{m2}},...,\vec{A_{mn}}}
-\end{align}
-Since, addition in $F^{m\times n}$ and in $F^{mn}$ is performed component-wise, $G\brak{\vec{A+B}} = G(\vec{A}) + G(\vec{B})$ and scalar multiplication in $F^{m\times n}$ and in $F^{mn}$ is also defined component-wise as $G\brak{c\vec{A}}= cG\brak{\vec{A}}$. Thus $G$ is a linear transformation.
-
-Now, we try to prove that $G$ is one to one. For this,
-\begin{align}
- G(\vec{A}) = G(\vec{B})
-\end{align}
-\begin{multline}
-\implies \brak{\vec{A_{11}},\vec{A_{12}},...,\vec{A_{1n}},...,\vec{A_{m1}},\vec{A_{m2}},...,\vec{A_{mn}}}=\\
-\brak{\vec{B_{11}},\vec{B_{12}},...,\vec{B_{1n}},...,\vec{B_{m1}},\vec{B_{m2}},...,\vec{B_{mn}}}\label{3}
-\end{multline}
-\eqref{3}, is true if and only if 
-\begin{align}
-\vec{A_{i,j}} = \vec{B_{ij}} \quad \forall 1 \leq i \leq m ,1 \leq j \leq n
-\end{align}
-Now, we have
-\begin{align}
-\vec{A} = \vec{B}
-\end{align}
-Hence, $G$ is one to one.
-
-Also, since $G$ is one to one, then Null($G$) $=0$. Thus, by Rank-Nullity Theorem dim(Range($G$))$=mn$, proving $G$ to be a surjective (onto) map as by theorem \eqref{1} dimension of $F^{m\times n} = mn$, thus by theorem \eqref{2} $G$ has an inverse and is an isomorphism. 
-
-Hence, we find out that $F^{m\times n}$ is isomorphic to $F^{mn}$.
+\section{Definitions}
+\begin{table}[hp]
+		\begin{tabular}{|c|c|}
+			\hline
+			\multirow{3}{*}{Invertible} & \\
+			& A linear map $\vec{T}\in \vec{L(V,W)}$ is called invertible if there exists a linear map $\vec{S}\in \vec{L(W,V)}$ \\
+			Linear Map & such that $\vec{ST}$ equals the identity map on $\vec{V}$ and $\vec{TS}$ equals the identity map on $\vec{W}$. \\
+			& \\
+			& A linear map $\vec{S}\in \vec{L(W,V)}$ satisfying $\vec{ST=I_{V}}$ and $\vec{TS=I_{W}}$ is called an inverse of $\vec{T}$.\\
+			& \\
+			\hline
+			\multirow{3}{*}{Isomorphic} & \\
+			& Two vector spaces $\vec{V}$ and $\vec{W}$ are called isomorphic if there is an isomorphism from one \\
+			Vector Spaces & vector space onto the other one. An isomorphism is an invertible linear map. \\
+			& \\
+			\hline
+			\multirow{3}{*}{Rank Nullity} & \\
+			  & Let $\vec{V}$ and $\vec{W}$ be finite dimensional vector spaces. Let $\vec{T}$: $\vec{V}$ $\to$ $\vec{W}$ be a linear transformation \\
+			Theorem &  Rank($\vec{T}$) + Nullity($\vec{T}$) = dim $\vec{V}$\\
+			& \\
+			\hline	
+		\end{tabular}
+\end{table}
+\section{Results used}
+\begin{table}[hp]
+	\begin{tabular}{|l|l|}
+		\hline
+		\multirow{3}{*}{Result 1} & \\
+		& The space of all $m \times n$ matrices over the field $\vec{F}$ has dimension $mn$.\\
+		\hline
+		\multirow{3}{*}{Result 2} & \\
+	   & Let $\vec{V}$ and $\vec{W}$ be finite-dimensional vector spaces over the field $\vec{F}$ such that dim $\vec{V}$ = dim $\vec{W}$. If $\vec{T}$ \\
+	   & is a linear transformation from $\vec{V}$ into $\vec{W}$, then the following are equivalent:\\
+	   & (a). $\vec{T}$ is invertible. \\
+	   & (b). $\vec{T}$ is non-singular.\\
+	   & (c). $\vec{T}$ is onto, that is, range of $\vec{T}$ is $\vec{W}$.\\
+	   \hline	
+	\end{tabular}
+\end{table}
+\pagebreak
+\myemptypage
+\section{Proof}
+\begin{table}[hp]
+	\begin{tabular}{|l|l|}
+		\hline
+		\multirow{3}{*}{Defining} & \\
+		& We define set $S$ and set $T$ as\\
+		Sets&  $S = \{\brak{a,b}: a,b \in \mathbb{N}, 1 \leq a \leq m, 1 \leq b \leq n \},  \quad T = \{ 1,2,...,mn\}$\\
+		& \\
+		\hline
+		\multirow{3}{*}{Defining} & \\
+		& We now define a bijection $\sigma: S \to T$ as\\
+		Bijection& \qquad \qquad \brak{a,b} $\to$	\brak{a-1}n + b \\
+		& \\
+		\hline
+		\multirow{3}{*}{Defining} & \\
+		& We now define a function $G$ from $F^{m\times n}$ to $F^{mn}$ as follows. Let $\vec{A} \in F^{m\times n}$.\\
+		Function $G$ & Then map $\vec{A}$ to the $mn$ tupple that has $\vec{A_{ij}}$ in the $\sigma(i,j)$ position. In other words,\\ 
+		& \qquad \qquad \qquad \qquad $\vec{A} \to \brak{\vec{A_{11}},\vec{A_{12}},...,\vec{A_{1n}},...,\vec{A_{m1}},\vec{A_{m2}},...,\vec{A_{mn}}}$\\
+		& \\
+		\hline
+		\multirow{3}{*}{Proving $G$ to} & \\
+		& Since, addition in $F^{m\times n}$ and in $F^{mn}$ is performed component-wise, $G\brak{\vec{A+B}} = G(\vec{A}) + G(\vec{B})$\\
+	be Linear & and scalar multiplication in $F^{m\times n}$ and in $F^{mn}$ is also defined  as $G\brak{c\vec{A}}= cG\brak{\vec{A}}$. \\
+	& \\
+		\hline	
+		\multirow{3}{*}{Proving $G$ to} & \\
+		& $G(\vec{A}) = G(\vec{B})$ \\
+		be One-One & $\implies \brak{\vec{A_{11}},\vec{A_{12}},...,\vec{A_{1n}},...,\vec{A_{m1}},\vec{A_{m2}},...,\vec{A_{mn}}}=
+		\brak{\vec{B_{11}},\vec{B_{12}},...,\vec{B_{1n}},...,\vec{B_{m1}},\vec{B_{m2}},...,\vec{B_{mn}}}$ \\
+		& $ \implies \vec{A_{i,j}} = \vec{B_{ij}} \quad \forall 1 \leq i \leq m ,1 \leq j \leq n $\\
+		& $\implies$ $\vec{A}$ = $\vec{B}$\\
+		& \\
+		\hline
+		\multirow{3}{*}{Proving $G$ to} & \\
+	    & Since $G$ is one to one, so Null($G$) $=0$. Thus, by Rank-Nullity Theorem dim(Range($G$))$=mn$, \\ 
+		be Onto & proving $G$ to be a surjective (onto) map as by Result 1 dimension of $F^{m\times n} = mn$\\
+		& \\
+		\hline
+		\multirow{3}{*}{$F^{m\times n} \cong F^{mn}$} & \\
+		& Since $G$ has an inverse and is an isomorphism of $\vec{T}$. Thus, by Result 2\\ 
+	    & \qquad \qquad \qquad  $F^{m\times n} \cong F^{mn}$\\
+	    & \\
+		\hline
+	\end{tabular}
+\end{table}
+\section{Example}
+$\mathbb{R}^{2\times 2}$ is isomorphic to $\mathbb{R}^{4}$ ie, $\mathbb{R}^{2\times 2}$ $\cong$ $\mathbb{R}^{4}$.
 \end{document}
