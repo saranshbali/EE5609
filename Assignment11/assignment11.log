@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  15 NOV 2020 14:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  15 NOV 2020 23:08
 entering extended mode
 **./assignment11.tex
 (assignment11.tex
@@ -118,6 +118,43 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 "
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphi
+cx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval
+.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphi
+cs.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.s
+ty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\gr
+aphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pd
+ftex.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+)
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage
+.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks17
+\AP@partial=\box49
+\AP@footins=\box50
+)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath
 .sty"
 Package: amsmath 2020/09/23 v2.17i AMS math features
@@ -132,13 +169,13 @@ Package: amstext 2000/06/29 v2.01 AMS text
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.
 sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks16
-\ex@=\dimen162
+\@emptytoks=\toks18
+\ex@=\dimen164
 ))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.
 sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen163
+\pmbraise@=\dimen165
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.
 sty"
@@ -154,9 +191,9 @@ LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box49
-\strutbox@=\box50
-\big@size=\dimen164
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+\big@size=\dimen166
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count195
@@ -164,41 +201,118 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \dotsspace@=\muskip16
 \c@parentequation=\count197
 \dspbrk@lvl=\count198
-\tag@help=\toks17
+\tag@help=\toks19
 \row@=\count199
 \column@=\count266
 \maxfields@=\count267
-\andhelp@=\toks18
-\eqnshift@=\dimen165
-\alignsep@=\dimen166
-\tagshift@=\dimen167
-\tagwidth@=\dimen168
-\totwidth@=\dimen169
-\lineht@=\dimen170
-\@envbody=\toks19
+\andhelp@=\toks20
+\eqnshift@=\dimen167
+\alignsep@=\dimen168
+\tagshift@=\dimen169
+\tagwidth@=\dimen170
+\totwidth@=\dimen171
+\lineht@=\dimen172
+\@envbody=\toks21
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks20
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.s
 ty"
 Package: amsthm 2020/05/29 v2.20.6
-\thm@style=\toks21
-\thm@bodyfont=\toks22
-\thm@headfont=\toks23
-\thm@notefont=\toks24
-\thm@headpunct=\toks25
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
 \thm@preskip=\skip53
 \thm@postskip=\skip54
 \thm@headsep=\skip55
-\dth@everypar=\toks26
+\dth@everypar=\toks28
 )
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjus
+tbox.sty"
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval
+.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyv
+al.tex"
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvut
+ils.tex"
+\XKV@toks=\toks29
+\XKV@tempa@toks=\toks30
+)
+\XKV@depth=\count268
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjca
+lc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimc
+lip.sty"
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\coll
+ectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box53
+)
+\tc@llx=\dimen173
+\tc@lly=\dimen174
+\tc@urx=\dimen175
+\tc@ury=\dimen176
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pd
+ftex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen177
+\adjbox@Height=\dimen178
+\adjbox@Depth=\dimen179
+\adjbox@Totalheight=\dimen180
+\adjbox@pwidth=\dimen181
+\adjbox@pheight=\dimen182
+\adjbox@pdepth=\dimen183
+\adjbox@ptotalheight=\dimen184
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifodd
+page.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count269
+)
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwid
+th.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box54
+\sift@deathcycles=\count270
+\@vwid@loff=\dimen185
+\@vwid@roff=\dimen186
+))
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssym
+b.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfon
+ts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\mathrs
 fs.sty"
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
-\symrsfs=\mathgroup4
+\symrsfs=\mathgroup6
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\txfonts
 .sty"
@@ -210,7 +324,7 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
-\symitalic=\mathgroup5
+\symitalic=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
 (Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
@@ -246,9 +360,10 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
 (Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
-\symlettersA=\mathgroup6
+\symlettersA=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
 (Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
 LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
@@ -256,10 +371,18 @@ LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
-\symAMSa=\mathgroup7
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
 LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
 (Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
-\symAMSb=\mathgroup8
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
 LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
 (Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
 \symsymbolsC=\mathgroup9
@@ -276,7 +399,6 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
 (Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
 LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 591.
 LaTeX Info: Redefining \not on input line 1043.
 LaTeX Info: Redefining \textsquare on input line 1063.
 LaTeX Info: Redefining \openbox on input line 1064.
@@ -285,8 +407,8 @@ LaTeX Info: Redefining \openbox on input line 1064.
 s.sty"
 Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
 ings
-\@dblbotnum=\count268
-\c@dblbotnumber=\count269
+\@dblbotnum=\count271
+\c@dblbotnumber=\count272
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty"
 Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
@@ -304,17 +426,12 @@ Package: cite 2015/02/27  v 5.5
 ) ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/cases\cases.s
 ty"
 Package: cases 2020/03/29 ver 3.2
-\numc@numwid=\dimen171
+\numc@numwid=\dimen187
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.s
 ty"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval
-.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks27
-)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption
 .sty"
 Package: caption 2020/09/12 v3.5b Customizing captions (AR)
@@ -322,13 +439,13 @@ Package: caption 2020/09/12 v3.5b Customizing captions (AR)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption
 3.sty"
 Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
-\captionmargin=\dimen172
-\captionmargin@=\dimen173
-\captionwidth=\dimen174
-\caption@tempdima=\dimen175
-\caption@indent=\dimen176
-\caption@parindent=\dimen177
-\caption@hangindent=\dimen178
+\captionmargin=\dimen188
+\captionmargin@=\dimen189
+\captionwidth=\dimen190
+\caption@tempdima=\dimen191
+\caption@indent=\dimen192
+\caption@parindent=\dimen193
+\caption@hangindent=\dimen194
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->\ifx \@captype \@IEEEta
@@ -348,20 +465,20 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count270
-\c@continuedfloat=\count271
+\c@caption@flags=\count273
+\c@continuedfloat=\count274
 )
-\c@KVtest=\count272
+\c@KVtest=\count275
 \sf@farskip=\skip56
-\sf@captopadj=\dimen179
+\sf@captopadj=\dimen195
 \sf@capskip=\skip57
 \sf@nearskip=\skip58
-\c@subfigure=\count273
-\c@subfigure@save=\count274
-\c@lofdepth=\count275
-\c@subtable=\count276
-\c@subtable@save=\count277
-\c@lotdepth=\count278
+\c@subfigure=\count276
+\c@subfigure@save=\count277
+\c@lofdepth=\count278
+\c@subtable=\count279
+\c@subtable@save=\count280
+\c@lotdepth=\count281
 \sf@top=\skip59
 \sf@bottom=\skip60
 )
@@ -372,35 +489,35 @@ Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
 \LTright=\skip62
 \LTpre=\skip63
 \LTpost=\skip64
-\LTchunksize=\count279
-\LTcapwidth=\dimen180
-\LT@head=\box51
-\LT@firsthead=\box52
-\LT@foot=\box53
-\LT@lastfoot=\box54
-\LT@cols=\count280
-\LT@rows=\count281
-\c@LT@tables=\count282
-\c@LT@chunks=\count283
-\LT@p@ftn=\toks28
+\LTchunksize=\count282
+\LTcapwidth=\dimen196
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@cols=\count283
+\LT@rows=\count284
+\c@LT@tables=\count285
+\c@LT@chunks=\count286
+\LT@p@ftn=\toks31
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multir
 ow.sty"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip65
-\multirow@cntb=\count284
+\multirow@cntb=\count287
 \multirow@dima=\skip66
-\bigstrutjot=\dimen181
+\bigstrutjot=\dimen197
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumit
 em.sty"
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip67
-\enit@outerparindent=\dimen182
-\enit@toks=\toks29
-\enit@inbox=\box55
-\enit@count@id=\count285
-\enitdp@description=\count286
+\enit@outerparindent=\dimen198
+\enit@toks=\toks32
+\enit@inbox=\box59
+\enit@count@id=\count288
+\enitdp@description=\count289
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\matht
 ools.sty"
@@ -408,15 +525,15 @@ Package: mathtools 2020/03/24 v1.24 mathematical typesetting tools
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count287
-\calc@Bcount=\count288
-\calc@Adimen=\dimen183
-\calc@Bdimen=\dimen184
+\calc@Acount=\count290
+\calc@Bcount=\count291
+\calc@Adimen=\dimen199
+\calc@Bdimen=\dimen256
 \calc@Askip=\skip68
 \calc@Bskip=\skip69
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count289
+\calc@Ccount=\count292
 \calc@Cskip=\skip70
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhset
@@ -427,17 +544,17 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count290
-\l_MT_multwidth_dim=\dimen185
+\g_MT_multlinerow_int=\count293
+\l_MT_multwidth_dim=\dimen257
 \origjot=\skip71
-\l_MT_shortvdotswithinadjustabove_dim=\dimen186
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen187
-\l_MT_above_intertext_sep=\dimen188
-\l_MT_below_intertext_sep=\dimen189
-\l_MT_above_shortintertext_sep=\dimen190
-\l_MT_below_shortintertext_sep=\dimen191
-\xmathstrut@box=\box56
-\xmathstrut@dim=\dimen192
+\l_MT_shortvdotswithinadjustabove_dim=\dimen258
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen259
+\l_MT_above_intertext_sep=\dimen260
+\l_MT_below_intertext_sep=\dimen261
+\l_MT_above_shortintertext_sep=\dimen262
+\l_MT_below_shortintertext_sep=\dimen263
+\xmathstrut@box=\box60
+\xmathstrut@dim=\dimen264
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/steinmetz\stein
 metz.sty"
@@ -452,32 +569,23 @@ fg"
 File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
 )
 Package pict2e Info: Driver file: pdftex.def on input line 112.
-
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pd
-ftex.def"
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
-)
 Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 114.
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/pict2e\p2e-pdft
 ex.def"
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.s
-ty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+\pIIe@GRAPH=\toks33
+\@arclen=\dimen265
+\@arcrad=\dimen266
+\pIIe@tempdima=\dimen267
+\pIIe@tempdimb=\dimen268
+\pIIe@tempdimc=\dimen269
+\pIIe@tempdimd=\dimen270
+\pIIe@tempdime=\dimen271
+\pIIe@tempdimf=\dimen272
 )
-\pIIe@GRAPH=\toks30
-\@arclen=\dimen193
-\@arcrad=\dimen194
-\pIIe@tempdima=\dimen195
-\pIIe@tempdimb=\dimen196
-\pIIe@tempdimc=\dimen197
-\pIIe@tempdimd=\dimen198
-\pIIe@tempdime=\dimen199
-\pIIe@tempdimf=\dimen256
-)
-\stm@phasebox=\box57
+\stm@phasebox=\box61
 \stm@phasedp=\skip72
 \stm@phaseht=\skip73
 \stm@phasetot=\skip74
@@ -491,15 +599,15 @@ pgf.sty"
 gfrcs.sty"
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfutil-common.tex"
-\pgfutil@everybye=\toks31
-\pgfutil@tempdima=\dimen257
-\pgfutil@tempdimb=\dimen258
+\pgfutil@everybye=\toks34
+\pgfutil@tempdima=\dimen273
+\pgfutil@tempdimb=\dimen274
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfutil-common-lists.tex"))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfutil-latex.def"
-\pgfutil@abb=\box58
+\pgfutil@abb=\box62
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfrcs.code.tex"
@@ -511,23 +619,6 @@ Package: pgf 2020/10/01 v3.1.6a (3.1.6a)
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\
 pgfcore.sty"
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphi
-cx.sty"
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphi
-cs.sty"
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
-
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\gr
-aphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 105.
-)
-\Gin@req@height=\dimen259
-\Gin@req@width=\dimen260
-)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer
 \pgfsys.sty"
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlay
@@ -536,33 +627,33 @@ Package: pgfsys 2020/10/01 v3.1.6a (3.1.6a)
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks32
-\pgfkeys@temptoks=\toks33
+\pgfkeys@pathtoks=\toks35
+\pgfkeys@temptoks=\toks36
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities
 \pgfkeysfiltered.code.tex"
-\pgfkeys@tmptoks=\toks34
+\pgfkeys@tmptoks=\toks37
 ))
-\pgf@x=\dimen261
-\pgf@y=\dimen262
-\pgf@xa=\dimen263
-\pgf@ya=\dimen264
-\pgf@xb=\dimen265
-\pgf@yb=\dimen266
-\pgf@xc=\dimen267
-\pgf@yc=\dimen268
-\pgf@xd=\dimen269
-\pgf@yd=\dimen270
+\pgf@x=\dimen275
+\pgf@y=\dimen276
+\pgf@xa=\dimen277
+\pgf@ya=\dimen278
+\pgf@xb=\dimen279
+\pgf@yb=\dimen280
+\pgf@xc=\dimen281
+\pgf@yc=\dimen282
+\pgf@xd=\dimen283
+\pgf@yd=\dimen284
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count291
-\c@pgf@countb=\count292
-\c@pgf@countc=\count293
-\c@pgf@countd=\count294
-\t@pgf@toka=\toks35
-\t@pgf@tokb=\toks36
-\t@pgf@tokc=\toks37
-\pgf@sys@id@count=\count295
+\c@pgf@counta=\count294
+\c@pgf@countb=\count295
+\c@pgf@countc=\count296
+\c@pgf@countd=\count297
+\t@pgf@toka=\toks38
+\t@pgf@tokb=\toks39
+\t@pgf@tokc=\toks40
+\pgf@sys@id@count=\count298
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlay
 er\pgf.cfg"
@@ -581,8 +672,8 @@ File: pgfsys-common-pdf.def 2020/10/01 v3.1.6a (3.1.6a)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlay
 er\pgfsyssoftpath.code.tex"
 File: pgfsyssoftpath.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfsyssoftpath@smallbuffer@items=\count296
-\pgfsyssoftpath@bigbuffer@items=\count297
+\pgfsyssoftpath@smallbuffer@items=\count299
+\pgfsyssoftpath@bigbuffer@items=\count300
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlay
 er\pgfsysprotocol.code.tex"
@@ -619,12 +710,12 @@ athcalc.code.tex"
 athutil.code.tex")
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfm
 athparser.code.tex"
-\pgfmath@dimen=\dimen271
-\pgfmath@count=\count298
-\pgfmath@box=\box59
-\pgfmath@toks=\toks38
-\pgfmath@stack@operand=\toks39
-\pgfmath@stack@operation=\toks40
+\pgfmath@dimen=\dimen285
+\pgfmath@count=\count301
+\pgfmath@box=\box63
+\pgfmath@toks=\toks41
+\pgfmath@stack@operand=\toks42
+\pgfmath@stack@operation=\toks43
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfm
 athfunctions.code.tex"
@@ -646,59 +737,59 @@ athfunctions.misc.code.tex")
 athfunctions.integerarithmetics.code.tex")))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfm
 athfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count299
+\c@pgfmathroundto@lastzeros=\count302
 ))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfi
 nt.code.tex")
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorepoints.code.tex"
 File: pgfcorepoints.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@picminx=\dimen272
-\pgf@picmaxx=\dimen273
-\pgf@picminy=\dimen274
-\pgf@picmaxy=\dimen275
-\pgf@pathminx=\dimen276
-\pgf@pathmaxx=\dimen277
-\pgf@pathminy=\dimen278
-\pgf@pathmaxy=\dimen279
-\pgf@xx=\dimen280
-\pgf@xy=\dimen281
-\pgf@yx=\dimen282
-\pgf@yy=\dimen283
-\pgf@zx=\dimen284
-\pgf@zy=\dimen285
+\pgf@picminx=\dimen286
+\pgf@picmaxx=\dimen287
+\pgf@picminy=\dimen288
+\pgf@picmaxy=\dimen289
+\pgf@pathminx=\dimen290
+\pgf@pathmaxx=\dimen291
+\pgf@pathminy=\dimen292
+\pgf@pathmaxy=\dimen293
+\pgf@xx=\dimen294
+\pgf@xy=\dimen295
+\pgf@yx=\dimen296
+\pgf@yy=\dimen297
+\pgf@zx=\dimen298
+\pgf@zy=\dimen299
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorepathconstruct.code.tex"
 File: pgfcorepathconstruct.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@path@lastx=\dimen286
-\pgf@path@lasty=\dimen287
+\pgf@path@lastx=\dimen300
+\pgf@path@lasty=\dimen301
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorepathusage.code.tex"
 File: pgfcorepathusage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@shorten@end@additional=\dimen288
-\pgf@shorten@start@additional=\dimen289
+\pgf@shorten@end@additional=\dimen302
+\pgf@shorten@start@additional=\dimen303
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorescopes.code.tex"
 File: pgfcorescopes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfpic=\box60
-\pgf@hbox=\box61
-\pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count300
+\pgfpic=\box64
+\pgf@hbox=\box65
+\pgf@layerbox@main=\box66
+\pgf@picture@serial@count=\count303
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgflinewidth=\dimen290
+\pgflinewidth=\dimen304
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcoretransformations.code.tex"
 File: pgfcoretransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@pt@x=\dimen291
-\pgf@pt@y=\dimen292
-\pgf@pt@temp=\dimen293
+\pgf@pt@x=\dimen305
+\pgf@pt@y=\dimen306
+\pgf@pt@temp=\dimen307
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorequick.code.tex"
@@ -715,14 +806,14 @@ File: pgfcorepathprocessing.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorearrows.code.tex"
 File: pgfcorearrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfarrowsep=\dimen294
+\pgfarrowsep=\dimen308
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcoreshade.code.tex"
 File: pgfcoreshade.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@max=\dimen295
-\pgf@sys@shading@range@num=\count301
-\pgf@shadingcount=\count302
+\pgf@max=\dimen309
+\pgf@sys@shading@range@num=\count304
+\pgf@shadingcount=\count305
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcoreimage.code.tex"
@@ -731,7 +822,7 @@ File: pgfcoreimage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcoreexternal.code.tex"
 File: pgfcoreexternal.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfexternal@startupbox=\box63
+\pgfexternal@startupbox=\box67
 ))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclaye
 r\pgfcorelayers.code.tex"
@@ -752,7 +843,7 @@ File: pgfcorerdf.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\p
 gfmoduleshapes.code.tex"
 File: pgfmoduleshapes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfnodeparttextbox=\box64
+\pgfnodeparttextbox=\box68
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\p
 gfmoduleplot.code.tex"
@@ -761,8 +852,8 @@ File: pgfmoduleplot.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibili
 ty\pgfcomp-version-0-65.sty"
 Package: pgfcomp-version-0-65 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@nodesepstart=\dimen296
-\pgf@nodesepend=\dimen297
+\pgf@nodesepstart=\dimen310
+\pgf@nodesepend=\dimen311
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibili
 ty\pgfcomp-version-1-18.sty"
@@ -784,10 +875,10 @@ Package: pgffor 2020/10/01 v3.1.6a (3.1.6a)
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfm
 ath.code.tex")
-\pgffor@iter=\dimen298
-\pgffor@skip=\dimen299
-\pgffor@stack=\toks41
-\pgffor@toks=\toks42
+\pgffor@iter=\dimen312
+\pgffor@skip=\dimen313
+\pgffor@stack=\toks44
+\pgffor@toks=\toks45
 ))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz\tikz.code.tex"
@@ -796,34 +887,34 @@ Package: tikz 2020/10/01 v3.1.6a (3.1.6a)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries
 \pgflibraryplothandlers.code.tex"
 File: pgflibraryplothandlers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@plot@mark@count=\count303
-\pgfplotmarksize=\dimen300
+\pgf@plot@mark@count=\count306
+\pgfplotmarksize=\dimen314
 )
-\tikz@lastx=\dimen301
-\tikz@lasty=\dimen302
-\tikz@lastxsaved=\dimen303
-\tikz@lastysaved=\dimen304
-\tikz@lastmovetox=\dimen305
-\tikz@lastmovetoy=\dimen306
-\tikzleveldistance=\dimen307
-\tikzsiblingdistance=\dimen308
-\tikz@figbox=\box65
-\tikz@figbox@bg=\box66
-\tikz@tempbox=\box67
-\tikz@tempbox@bg=\box68
-\tikztreelevel=\count304
-\tikznumberofchildren=\count305
-\tikznumberofcurrentchild=\count306
-\tikz@fig@count=\count307
+\tikz@lastx=\dimen315
+\tikz@lasty=\dimen316
+\tikz@lastxsaved=\dimen317
+\tikz@lastysaved=\dimen318
+\tikz@lastmovetox=\dimen319
+\tikz@lastmovetoy=\dimen320
+\tikzleveldistance=\dimen321
+\tikzsiblingdistance=\dimen322
+\tikz@figbox=\box69
+\tikz@figbox@bg=\box70
+\tikz@tempbox=\box71
+\tikz@tempbox@bg=\box72
+\tikztreelevel=\count307
+\tikznumberofchildren=\count308
+\tikznumberofcurrentchild=\count309
+\tikz@fig@count=\count310
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\p
 gfmodulematrix.code.tex"
 File: pgfmodulematrix.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfmatrixcurrentrow=\count308
-\pgfmatrixcurrentcolumn=\count309
-\pgf@matrix@numberofcolumns=\count310
+\pgfmatrixcurrentrow=\count311
+\pgfmatrixcurrentcolumn=\count312
+\pgf@matrix@numberofcolumns=\count313
 )
-\tikz@expandcount=\count311
+\tikz@expandcount=\count314
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibrarytopaths.code.tex"
@@ -841,10 +932,10 @@ File: tikzlibrarycalc.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries
 \pgflibraryarrows.meta.code.tex"
 File: pgflibraryarrows.meta.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfarrowinset=\dimen309
-\pgfarrowlength=\dimen310
-\pgfarrowwidth=\dimen311
-\pgfarrowlinewidth=\dimen312
+\pgfarrowinset=\dimen323
+\pgfarrowlength=\dimen324
+\pgfarrowwidth=\dimen325
+\pgfarrowlinewidth=\dimen326
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibrarybending.code.tex"
@@ -857,18 +948,18 @@ File: pgfmodulebending.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\p
 gfmodulenonlineartransformations.code.tex"
 File: pgfmodulenonlineartransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgftransformnonlinearflatness=\dimen313
+\pgftransformnonlinearflatness=\dimen327
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries
 \pgflibrarycurvilinear.code.tex"
 File: pgflibrarycurvilinear.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@curvilinear@time@a=\dimen314
-\pgf@curvilinear@length@a=\dimen315
-\pgf@curvilinear@length@b=\dimen316
-\pgf@curvilinear@length@c=\dimen317
-\pgf@curvilinear@length@d=\dimen318
+\pgf@curvilinear@time@a=\dimen328
+\pgf@curvilinear@length@a=\dimen329
+\pgf@curvilinear@length@b=\dimen330
+\pgf@curvilinear@length@c=\dimen331
+\pgf@curvilinear@length@d=\dimen332
 )
-\pgf@arrows@the@rigidity=\dimen319
+\pgf@arrows@the@rigidity=\dimen333
 ))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibraryfpu.code.tex"
@@ -876,20 +967,20 @@ ayer/tikz/libraries\tikzlibraryfpu.code.tex"
 \pgflibraryfpu.code.tex"))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pg
 fcirc.defines.tex"
-\pgf@circ@count@a=\count312
-\pgf@circ@count@b=\count313
-\pgf@circ@count@c=\count314
-\pgf@circ@res@up=\dimen320
-\pgf@circ@res@down=\dimen321
-\pgf@circ@res@zero=\dimen322
-\pgf@circ@res@left=\dimen323
-\pgf@circ@res@right=\dimen324
-\pgf@circ@res@other=\dimen325
-\pgf@circ@res@step=\dimen326
-\pgf@circ@res@temp=\dimen327
-\pgf@circ@Rlen=\dimen328
-\pgf@circ@scaled@Rlen=\dimen329
-\pgfstartlinewidth=\dimen330
+\pgf@circ@count@a=\count315
+\pgf@circ@count@b=\count316
+\pgf@circ@count@c=\count317
+\pgf@circ@res@up=\dimen334
+\pgf@circ@res@down=\dimen335
+\pgf@circ@res@zero=\dimen336
+\pgf@circ@res@left=\dimen337
+\pgf@circ@res@right=\dimen338
+\pgf@circ@res@other=\dimen339
+\pgf@circ@res@step=\dimen340
+\pgf@circ@res@temp=\dimen341
+\pgf@circ@Rlen=\dimen342
+\pgf@circ@scaled@Rlen=\dimen343
+\pgfstartlinewidth=\dimen344
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pg
 fcircutils.tex")
@@ -901,7 +992,7 @@ fcircmonopoles.tex")
 fcircbipoles.tex")
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pg
 fcirctripoles.tex"
-\pgf@circ@res@count=\count315
+\pgf@circ@res@count=\count318
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pg
 fcircquadpoles.tex")
@@ -911,7 +1002,7 @@ fcircmultipoles.tex")
 fcirclabel.tex")
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pg
 fcircvoltage.tex"
-\pgfcirc@labelshift=\dimen331
+\pgfcirc@labelshift=\dimen345
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/circuitikz\pg
 fcirccurrent.tex")
@@ -930,8 +1021,8 @@ Package circuitikz Warning: You did not specify one of the voltage directions:
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.
 sty"
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks43
-\verbatim@line=\toks44
+\every@verbatim=\toks46
+\verbatim@line=\toks47
 \verbatim@in@stream=\read3
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/tfrupee\tfrupee
@@ -939,6 +1030,12 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 Package: tfrupee 2010/12/15 LaTeX Support for the TechFat Rupee symbols by Tech
 Fat (http://techfat.blogspot.com/2010/07/new-open-source-india-rupee-font.html)
 . Adapted for use with TeX by Palle Jorgensen, hamselv(a)pallej.dk
+)
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.s
+ty"
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks48
+\inpenc@posthook=\toks49
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperr
 ef.sty"
@@ -993,9 +1090,9 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 ions.sty"
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen332
-\Hy@linkcounter=\count316
-\Hy@pagecounter=\count317
+\@linkdim=\dimen346
+\Hy@linkcounter=\count319
+\Hy@pagecounter=\count320
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc
 .def"
@@ -1011,7 +1108,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 cmds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count318
+\Hy@SavedSpaceFactor=\count321
 Package hyperref Info: Option `breaklinks' set `true' on input line 4338.
 Package hyperref Info: Hyper figures OFF on input line 4464.
 Package hyperref Info: Link nesting OFF on input line 4469.
@@ -1020,14 +1117,14 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count319
+\c@Hy@tempcnt=\count322
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen333
+\XeTeXLinkMargin=\dimen347
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset
 .sty"
@@ -1038,9 +1135,9 @@ gintcalc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count320
-\Field@Width=\dimen334
-\Fld@charsize=\dimen335
+\Fld@menulength=\count323
+\Field@Width=\dimen348
+\Fld@charsize=\dimen349
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -1057,9 +1154,9 @@ Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
 ge
 with kernel methods
 )
-\Hy@abspage=\count321
-\c@Item=\count322
-\c@Hfootnote=\count323
+\Hy@abspage=\count324
+\c@Item=\count325
+\c@Hfootnote=\count326
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1073,8 +1170,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count324
-\c@bookmark@seq@number=\count325
+\Fld@listcount=\count327
+\c@bookmark@seq@number=\count328
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\
 rerunfilecheck.sty"
@@ -1110,7 +1207,7 @@ File: tikzlibraryarrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries
 \pgflibraryarrows.code.tex"
 File: pgflibraryarrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\arrowsize=\dimen336
+\arrowsize=\dimen350
 ))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibrarybabel.code.tex"
@@ -1120,16 +1217,16 @@ File: tikzlibrarybabel.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 ayer/tikz/libraries\tikzlibrarydecorations.code.tex"
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\p
 gfmoduledecorations.code.tex"
-\pgfdecoratedcompleteddistance=\dimen337
-\pgfdecoratedremainingdistance=\dimen338
-\pgfdecoratedinputsegmentcompleteddistance=\dimen339
-\pgfdecoratedinputsegmentremainingdistance=\dimen340
-\pgf@decorate@distancetomove=\dimen341
-\pgf@decorate@repeatstate=\count326
-\pgfdecorationsegmentamplitude=\dimen342
-\pgfdecorationsegmentlength=\dimen343
+\pgfdecoratedcompleteddistance=\dimen351
+\pgfdecoratedremainingdistance=\dimen352
+\pgfdecoratedinputsegmentcompleteddistance=\dimen353
+\pgfdecoratedinputsegmentremainingdistance=\dimen354
+\pgf@decorate@distancetomove=\dimen355
+\pgf@decorate@repeatstate=\count329
+\pgfdecorationsegmentamplitude=\dimen356
+\pgfdecorationsegmentlength=\dimen357
 )
-\tikz@lib@dec@box=\box69
+\tikz@lib@dec@box=\box73
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibrarydecorations.markings.code.tex"
@@ -1147,9 +1244,9 @@ ayer/tikz/libraries\tikzlibrarydecorations.shapes.code.tex"
 ayer/tikz/libraries\tikzlibrarydecorations.text.code.tex"
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries
 /decorations\pgflibrarydecorations.text.code.tex"
-\pgf@lib@dec@text@box=\box70
+\pgf@lib@dec@text@box=\box74
 )
-\tikz@lib@dec@te@box=\box71
+\tikz@lib@dec@te@box=\box75
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
@@ -1159,7 +1256,7 @@ ayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
 ayer/tikz/libraries\tikzlibraryintersections.code.tex"
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries
 \pgflibraryintersections.code.tex"
-\pgf@intersect@solutions=\count327
+\pgf@intersect@solutions=\count330
 ))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibrarypatterns.code.tex"
@@ -1216,31 +1313,31 @@ Package: numprint 2012/08/20 v1.39 Print numbers (HH)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 "
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen344
-\ar@mcellbox=\box72
-\extrarowheight=\dimen345
-\NC@list=\toks45
+\col@sep=\dimen358
+\ar@mcellbox=\box76
+\extrarowheight=\dimen359
+\NC@list=\toks50
 \extratabsurround=\skip77
 \backup@length=\skip78
-\ar@cellbox=\box73
+\ar@cellbox=\box77
 )
-\c@nprt@mantissa@digitsbefore=\count328
-\c@nprt@mantissa@digitsafter=\count329
-\c@nprt@exponent@digitsbefore=\count330
-\c@nprt@exponent@digitsafter=\count331
+\c@nprt@mantissa@digitsbefore=\count331
+\c@nprt@mantissa@digitsafter=\count332
+\c@nprt@exponent@digitsbefore=\count333
+\c@nprt@exponent@digitsafter=\count334
 \nprt@digitwidth=\skip79
 \nprt@sepwidth=\skip80
 \nprt@decimalwidth=\skip81
 \nprt@blockwidth=\skip82
-\nprt@digittoks=\toks46
-\nprt@pretoks=\toks47
-\nprt@posttoks=\toks48
-\nprt@thisdigit=\count332
-\nprt@curpos=\count333
-\nprt@rndpos=\count334
-\c@nprt@digitsfirstblock=\count335
-\c@nprt@blockcnt=\count336
-\c@nprt@cntprint=\count337
+\nprt@digittoks=\toks51
+\nprt@pretoks=\toks52
+\nprt@posttoks=\toks53
+\nprt@thisdigit=\count335
+\nprt@curpos=\count336
+\nprt@rndpos=\count337
+\c@nprt@digitsfirstblock=\count338
+\c@nprt@blockcnt=\count339
+\c@nprt@cntprint=\count340
  No configuration file `numprint.cfg' found.)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfp\
 xfp.sty"
@@ -1251,8 +1348,8 @@ Package: expl3 2020-10-05 L3 programming layer (loader)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3bac
 kend-pdftex.def"
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count338
-\l__pdf_internal_box=\box74
+\l__kernel_color_stack_int=\count341
+\l__pdf_internal_box=\box78
 ))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xpar
 se\xparse.sty"
@@ -1269,20 +1366,20 @@ Package: fp 1995/04/02
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.s
 ty"
 Package: defpattern 1994/10/12
-\actioncount=\count339
+\actioncount=\count342
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
 "
 Package: fp-basic 1996/05/13
-\FP@xs=\count340
-\FP@xia=\count341
-\FP@xib=\count342
-\FP@xfa=\count343
-\FP@xfb=\count344
-\FP@rega=\count345
-\FP@regb=\count346
-\FP@regs=\count347
-\FP@times=\count348
+\FP@xs=\count343
+\FP@xia=\count344
+\FP@xib=\count345
+\FP@xfa=\count346
+\FP@xfb=\count347
+\FP@rega=\count348
+\FP@regb=\count349
+\FP@regs=\count350
+\FP@times=\count351
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.st
 y"
@@ -1304,7 +1401,7 @@ Package: fp-pas 1994/08/29
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.st
 y"
 Package: fp-random 1995/02/23
-\FPseed=\count349
+\FPseed=\count352
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
@@ -1315,26 +1412,26 @@ Package: fp-upn 1996/10/21
 y"
 Package: fp-eval 1995/04/03
 ))
-\tkzRadius=\dimen346
-\tkzLength=\dimen347
-\tkz@radi=\dimen348
-\tkz@ax=\dimen349
-\tkz@ay=\dimen350
-\tkz@bx=\dimen351
-\tkz@by=\dimen352
-\tkz@cx=\dimen353
-\tkz@cy=\dimen354
-\tkz@dx=\dimen355
-\tkz@dy=\dimen356
-\tkz@tax=\dimen357
-\tkz@tay=\dimen358
-\tkz@tbx=\dimen359
-\tkz@tby=\dimen360
-\tkz@tcx=\dimen361
-\tkz@tcy=\dimen362
-\tkz@tdx=\dimen363
-\tkz@tdy=\dimen364
-\tkz@cntmk=\count350
+\tkzRadius=\dimen360
+\tkzLength=\dimen361
+\tkz@radi=\dimen362
+\tkz@ax=\dimen363
+\tkz@ay=\dimen364
+\tkz@bx=\dimen365
+\tkz@by=\dimen366
+\tkz@cx=\dimen367
+\tkz@cy=\dimen368
+\tkz@dx=\dimen369
+\tkz@dy=\dimen370
+\tkz@tax=\dimen371
+\tkz@tay=\dimen372
+\tkz@tbx=\dimen373
+\tkz@tby=\dimen374
+\tkz@tcx=\dimen375
+\tkz@tcy=\dimen376
+\tkz@tdx=\dimen377
+\tkz@tdy=\dimen378
+\tkz@cntmk=\count353
 
 Local configuration file tkz-base.cfg found and used
 
@@ -1414,8 +1511,8 @@ j-rep.tex"
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide\tkz
 -obj-eu-angles.tex"
 2020/03/18 3.06c tkz-tool-eu-angles.tex
-\tkz@arcsize=\dimen365
-\tkz@fillsize=\dimen366
+\tkz@arcsize=\dimen379
+\tkz@fillsize=\dimen380
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/tkz-euclide\tkz
 -obj-eu-arcs.tex"
@@ -1485,31 +1582,31 @@ j-rep.tex"
 ))
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibrarymath.code.tex"
-\tikz@math@for@depth=\count351
-\tikz@math@dimen=\dimen367
-\tikz@math@toks=\toks49
+\tikz@math@for@depth=\count354
+\tikz@math@dimen=\dimen381
+\tikz@math@toks=\toks54
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/listings\listin
 gs.sty"
-\lst@mode=\count352
-\lst@gtempboxa=\box75
-\lst@token=\toks50
-\lst@length=\count353
-\lst@currlwidth=\dimen368
-\lst@column=\count354
-\lst@pos=\count355
-\lst@lostspace=\dimen369
-\lst@width=\dimen370
-\lst@newlines=\count356
-\lst@lineno=\count357
-\lst@maxwidth=\dimen371
+\lst@mode=\count355
+\lst@gtempboxa=\box79
+\lst@token=\toks55
+\lst@length=\count356
+\lst@currlwidth=\dimen382
+\lst@column=\count357
+\lst@pos=\count358
+\lst@lostspace=\dimen383
+\lst@width=\dimen384
+\lst@newlines=\count359
+\lst@lineno=\count360
+\lst@maxwidth=\dimen385
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmis
 c.sty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count358
-\lst@skipnumbers=\count359
-\lst@framebox=\box76
+\c@lstnumber=\count361
+\lst@skipnumbers=\count362
+\lst@framebox=\box80
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/listings\listin
 gs.cfg"
@@ -1532,36 +1629,32 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.
 sty"
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count360
+\c@tracingmulticols=\count363
 
 
 Package multicol Warning: May not work with the twocolumn option on input line 
 141.
 
-\mult@box=\box77
-\multicol@leftmargin=\dimen372
-\c@unbalance=\count361
-\c@collectmore=\count362
-\doublecol@number=\count363
-\multicoltolerance=\count364
-\multicolpretolerance=\count365
-\full@width=\dimen373
-\page@free=\dimen374
-\premulticols=\dimen375
-\postmulticols=\dimen376
+\mult@box=\box81
+\multicol@leftmargin=\dimen386
+\c@unbalance=\count364
+\c@collectmore=\count365
+\doublecol@number=\count366
+\multicoltolerance=\count367
+\multicolpretolerance=\count368
+\full@width=\dimen387
+\page@free=\dimen388
+\premulticols=\dimen389
+\postmulticols=\dimen390
 \multicolsep=\skip83
 \multicolbaselineskip=\skip84
-\partial@page=\box78
-\last@line=\box79
-\maxbalancingoverflow=\dimen377
-\mult@rightbox=\box80
-\mult@grightbox=\box81
-\mult@gfirstbox=\box82
-\mult@firstbox=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
+\partial@page=\box82
+\last@line=\box83
+\maxbalancingoverflow=\dimen391
+\mult@rightbox=\box84
+\mult@grightbox=\box85
+\mult@gfirstbox=\box86
+\mult@firstbox=\box87
 \@tempa=\box88
 \@tempa=\box89
 \@tempa=\box90
@@ -1595,15 +1688,19 @@ Package multicol Warning: May not work with the twocolumn option on input line
 \@tempa=\box118
 \@tempa=\box119
 \@tempa=\box120
-\c@minrows=\count366
-\c@columnbadness=\count367
-\c@finalcolumnbadness=\count368
-\last@try=\dimen378
-\multicolovershoot=\dimen379
-\multicolundershoot=\dimen380
-\mult@nat@firstbox=\box121
-\colbreak@box=\box122
-\mc@col@check@num=\count369
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\c@minrows=\count369
+\c@columnbadness=\count370
+\c@finalcolumnbadness=\count371
+\last@try=\dimen392
+\multicolovershoot=\dimen393
+\multicolundershoot=\dimen394
+\mult@nat@firstbox=\box125
+\colbreak@box=\box126
+\mc@col@check@num=\count372
 )
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/chngcntr\chngcn
 tr.sty"
@@ -1612,7 +1709,7 @@ Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 8
-6.
+5.
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ot1txr.
 fd"
@@ -1620,99 +1717,121 @@ File: ot1txr.fd 2000/12/15 v3.1
 ) (assignment11.aux)
 \openout1 = `assignment11.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 86.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 85.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-86.
+85.
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omltxmi
 .fd"
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 85.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-86.
+85.
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omstxsy
 .fd"
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 85.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-86.
+85.
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\omxtxex
 .fd"
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 85.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 8
-6.
+5.
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxexa.
 fd"
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    ... okay on input line 85.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 85.
+LaTeX Font Info:    ... okay on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 85.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 86.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 85.
 
 -- Lines per column: 50 (exact).
-LaTeX Info: Redefining \celsius on input line 86.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 86.
+LaTeX Info: Redefining \celsius on input line 85.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 85.
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 86.
-Package gensymb Info: Using \Omega for \ohm on input line 86.
+LaTeX Info: Redefining \ohm on input line 85.
+Package gensymb Info: Using \Omega for \ohm on input line 85.
 
 Package gensymb Warning: Not defining \micro.
 
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\sup
+p-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count373
+\scratchdimen=\dimen395
+\scratchbox=\box127
+\nofMPsegments=\count374
+\nofMParguments=\count375
+\everyMPshowfont=\toks56
+\MPscratchCnt=\count376
+\MPscratchDim=\dimen396
+\MPnumerator=\count377
+\makeMPintoPDFobject=\count378
+\everyMPtoPDFconversion=\toks57
+)
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\ep
+stopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
@@ -1724,29 +1843,7 @@ on.sty"
 Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\sup
-p-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count370
-\scratchdimen=\dimen381
-\scratchbox=\box123
-\nofMPsegments=\count371
-\nofMParguments=\count372
-\everyMPshowfont=\toks51
-\MPscratchCnt=\count373
-\MPscratchDim=\dimen382
-\MPnumerator=\count374
-\makeMPintoPDFobject=\count375
-\everyMPtoPDFconversion=\toks52
-)
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\ep
-stopdf-base.sty"
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-)
-Package hyperref Info: Link coloring OFF on input line 86.
+Package hyperref Info: Link coloring OFF on input line 85.
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\namere
 f.sty"
@@ -1760,77 +1857,121 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 g\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count376
+\c@section@level=\count379
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
+LaTeX Info: Redefining \ref on input line 85.
+LaTeX Info: Redefining \pageref on input line 85.
+LaTeX Info: Redefining \nameref on input line 85.
  (assignment11.out) (assignment11.out)
 \@outlinefile=\write4
 \openout4 = `assignment11.out'.
 
-\c@lstlisting=\count377
-\c@theorem=\count378
-\c@problem=\count379
-\c@proposition=\count380
-\c@lemma=\count381
-\c@example=\count382
-\c@rem=\count383
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 24
-2.
-
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.
-fd"
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-)
-LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-42.
-
-("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.
-fd"
-File: utxmia.fd 2000/12/15 v3.1
-)
+\c@lstlisting=\count380
+\c@theorem=\count381
+\c@problem=\count382
+\c@proposition=\count383
+\c@lemma=\count384
+\c@example=\count385
+\c@rem=\count386
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-42.
+39.
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsya.
 fd"
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-42.
+39.
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyb.
 fd"
 File: utxsyb.fd 2000/12/15 v3.1
 )
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 23
+9.
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.
+fd"
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
+39.
+
+("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxmia.
+fd"
+File: utxmia.fd 2000/12/15 v3.1
+)
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-42.
+39.
 
 ("C:\Users\SARANSH BALI\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\utxsyc.
 fd"
 File: utxsyc.fd 2000/12/15 v3.1
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \hbox (215.00603pt too wide) in paragraph at lines 253--265
+[][] 
+ []
 
- [1{C:/Users/SARANSH BALI/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+[0{C:/Users/SARANSH BALI/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
-
-] [2
 
 ]
-(assignment11.aux)
+Overfull \hbox (212.833pt too wide) in paragraph at lines 269--278
+[][] 
+ []
+
+
+Overfull \hbox (218.0054pt too wide) in paragraph at lines 280--295
+[][] 
+ []
+
+
+Overfull \hbox (220.84526pt too wide) in paragraph at lines 297--309
+[][] 
+ []
+
+
+Overfull \hbox (216.55309pt too wide) in paragraph at lines 311--319
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.0}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.321 \myemptypage
+                   [0]
+Overfull \hbox (219.17291pt too wide) in paragraph at lines 323--335
+[][] 
+ []
+
+
+Overfull \hbox (216.03293pt too wide) in paragraph at lines 337--350
+[][] 
+ []
+
+
+Overfull \hbox (224.75926pt too wide) in paragraph at lines 352--366
+[][] 
+ []
+
+[1
+
+] (assignment11.aux)
 Package rerunfilecheck Info: File `assignment11.out' has not changed.
 (rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
  ) 
 Here is how much of TeX's memory you used:
- 43774 strings out of 480236
- 1085993 string characters out of 2877194
- 1448909 words of memory out of 3000000
- 59487 multiletter control sequences out of 15000+200000
+ 44889 strings out of 480236
+ 1105873 string characters out of 2877194
+ 1444172 words of memory out of 3000000
+ 60569 multiletter control sequences out of 15000+200000
  617430 words of font info for 207 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 84i,16n,105p,507b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 82i,18n,124p,508b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.
 enc}<C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
 onts/rtxmi.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1
@@ -1843,9 +1984,9 @@ H BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/User
 s/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><
 C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on assignment11.pdf (2 pages, 75472 bytes).
+Output written on assignment11.pdf (3 pages, 73883 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
