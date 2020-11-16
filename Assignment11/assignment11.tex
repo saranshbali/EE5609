@@ -249,6 +249,8 @@ Let $\vec{W}$ be the space of all $n \times 1$ column matrices over a field $\ve
 Now suppose $\vec{V}$ is an $n$-dimensional vector space over the field $\vec{F}$, and let $\beta$ be an ordered basis for $\vec{V}$. For each $\alpha$ in $\vec{V}$, define $\vec{U}_{\alpha}$ = $[\alpha]_{\beta}$. Prove that $\vec{U}$ is an isomorphism of $\vec{V}$ onto $\vec{W}$. If $\vec{T}$ is a linear operator on $\vec{V}$, then $\vec{UTU^{-1}}$ is a linear operator on $\vec{W}$. Accordingly, $\vec{UTU^{-1}}$ is left multiplication by some $n \times n$ matrix $\vec{A}$.
 What is A?
 \section{Solution}
+\pagebreak
+\myemptypage
 \begin{table}[hp]
 	\begin{tabular}{|l|l|}
 		\hline
@@ -261,24 +263,12 @@ What is A?
 		& \qquad \qquad $\vec{Te_{n}} = \alpha_{n1}\vec{e_1} + \alpha_{n2}\vec{e_2} + ... + \alpha_{nn}\vec{e_n}$ \\
 		& \\
 		\hline	
-	\end{tabular}
-\end{table}
-\pagebreak
-\myemptypage
-\begin{table}[hp]
-	\begin{tabular}{|l|l|}
-		\hline
 		\multirow{3}{*}{Matrix of} & \\
 		& Let $\vec{A}$ be matrix of linear transformation $\vec{T}$. Then $\vec{A}$ is \qquad \qquad \qquad \qquad \qquad \\
 		Linear Map $T$ & \\
 		& \qquad \qquad \qquad  $\vec{A} = \myvec{\alpha_{11} & \alpha_{21} & ... & \alpha_{n1} \\ \alpha_{12} & \alpha_{22} & ... & \alpha_{n2} \\ \vdots & \vdots & ... & \vdots \\  \alpha_{1n} & \alpha_{2n} & ... & \alpha_{nn} }$\\
 		& \\
 		\hline	
-	\end{tabular}
-\end{table}
-\begin{table}[hp]
-	\begin{tabular}{|l|l|}
-		\hline
 		\multirow{3}{*}{Proving every linear } & \\
 		&  \qquad $\vec{Ae_{1}} = \brak{\alpha_{11}, \alpha_{12},...,\alpha_{1n}}$ \\
 		operator on $\vec{W}$ is left &  \qquad \qquad = $ \alpha_{11}\vec{e_1} + \alpha_{12}\vec{e_2} + ... + \alpha_{1n}\vec{e_n}$  \qquad \qquad \quad \qquad \qquad \qquad \qquad \\
@@ -290,9 +280,11 @@ What is A?
 		& \qquad \qquad $\vec{Tx} = \vec{Ax}$ \quad  \\
 		& \qquad \qquad $\vec{Tx} = \vec{L_Ax}$\\
 		& \\
-		\hline	
+		\hline
 	\end{tabular}
 \end{table}
+\pagebreak
+\myemptypage
 \begin{table}[hp]
 	\begin{tabular}{|l|l|}
 		\hline
@@ -304,38 +296,21 @@ What is A?
     \qquad $\vec{T}$ & Let $\vec{T}$ be the function from $\vec{W}$ to $\vec{V}$ as follows: \\
 		& \qquad \qquad \qquad $\myvec{a_1 \\ a_2 \\ \vdots \\a_n} \to a_1\alpha_{1} + a_2\alpha_{2} + ... + a_n\alpha_{n} $\\
 		& \\
-		\hline	
-	\end{tabular}
-\end{table}
-\begin{table}[hp]
-	\begin{tabular}{|l|l|}
 		\hline
 		\multirow{3}{*}{Proving $\vec{U}$ to be} & \\
 		& For isomorphism, we must show that $\vec{TU}$ is identity map on $\vec{V}$ \qquad \qquad \qquad \\
-	an isomorphism	&  and $\vec{UT}$ is an identity map on $\vec{W}$.\\
-	& \\
-		\hline	
-	\end{tabular}
-\end{table}
-\pagebreak
-\myemptypage
-\begin{table}[hp]
-	\begin{tabular}{|l|l|}
+		an isomorphism	&  and $\vec{UT}$ is an identity map on $\vec{W}$.\\
+		& \\
 		\hline
 		\multirow{3}{*}{$\vec{TU=I_V}$} & \\
- & $\vec{TU(x)} = \vec{TU}(a_1\alpha_{1} + a_2\alpha_{2} + ... + a_n\alpha_{n})$  \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\
- & \qquad \quad $= \vec{T}\vec{U}(a_1\alpha_{1} + a_2\alpha_{2} + ... + a_n\alpha_{n}) $\\ 
- & \qquad \quad $ = a_1\vec{T}\myvec{1 \\ 0 \\ \vdots \\0} + a_2\vec{T}\myvec{0 \\ 1 \\ \vdots \\0} + ... + a_n\vec{T}\myvec{0 \\ 0 \\ \vdots \\1}$ \\
- & \qquad \quad $= a_1\alpha_{1} + a_2\alpha_{2} + ... + a_n\alpha_{n}$\\
- & \\
- & Hence, $\vec{TU}$ is identity map on $\vec{V}$.\\
- & \\
- \hline	
-\end{tabular}
-\end{table}
-\begin{table}[hp]
-	\begin{tabular}{|l|l|}
-		\hline
+		& $\vec{TU(x)} = \vec{TU}(a_1\alpha_{1} + a_2\alpha_{2} + ... + a_n\alpha_{n})$  \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\
+		& \qquad \quad $= \vec{T}\vec{U}(a_1\alpha_{1} + a_2\alpha_{2} + ... + a_n\alpha_{n}) $\\ 
+		& \qquad \quad $ = a_1\vec{T}\myvec{1 \\ 0 \\ \vdots \\0} + a_2\vec{T}\myvec{0 \\ 1 \\ \vdots \\0} + ... + a_n\vec{T}\myvec{0 \\ 0 \\ \vdots \\1}$ \\
+		& \qquad \quad $= a_1\alpha_{1} + a_2\alpha_{2} + ... + a_n\alpha_{n}$\\
+		& \\
+		& Hence, $\vec{TU}$ is identity map on $\vec{V}$.\\
+		& \\
+		\hline	
 		\multirow{3}{*}{$\vec{UT=I_W}$} & \\
 		& $\vec{UT(x)}  = \vec{UT}(a_1e_1 + a_2e_2 + ... + a_ne_n)$ \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad \\
 		& $ \qquad \quad = \vec{U}\vec{T}((a_1e_1 + a_2e_2 + ... + a_ne_n)$ \\
@@ -346,24 +321,18 @@ What is A?
 		& Hence, $\vec{UT}$ is identity map on $\vec{W}$. \\
 		& \\
 		\hline	
-	\end{tabular}
-\end{table}
-\begin{table}[hp]
-	\begin{tabular}{|l|l|}
-		\hline
 		\multirow{3}{*}{Matrix of} & \\
 		& Now, we define the matrix of $\vec{UTU^{-1}}$. Since $\vec{U\alpha_{i}}$ is the standard $n \times 1$ matrix  \quad \\
-\quad	$\vec{UTU^{-1}}$ & with all zeros except in the ith place which equals one. Let $\beta^{'}$ be the standard \\
- 	& basis for $\vec{W}$. Then the matrix of $\vec{U}$ with respect to $\beta$ and $\beta^{'}$ is the      identity matrix. \\
-	& Likewise the matrix of $\vec{U}^{-1}$ with respect to $\beta^{'}$ and $\beta$ is the identity matrix. \\
+		\quad	$\vec{UTU^{-1}}$ & with all zeros except in the ith place which equals one. Let $\beta^{'}$ be the standard \\
+		& basis for $\vec{W}$. Then the matrix of $\vec{U}$ with respect to $\beta$ and $\beta^{'}$ is the      identity matrix. \\
+		& Likewise the matrix of $\vec{U}^{-1}$ with respect to $\beta^{'}$ and $\beta$ is the identity matrix. \\
 		& Thus,\\
 		& \qquad \qquad \qquad $[\vec{UTU^{-1}}]_\beta = \vec{I[T]_\beta I^{-1}} = [T]_\beta$\\
 		& \\
 		& Thus, the matrix $\vec{A}$ is simply $\vec{[T]_\beta}$, the matrix of $\vec{T}$ with respect to $\beta$.\\
 		& \\
-		\hline	
+		\hline			
 	\end{tabular}
 \end{table}
-
-
+\pagebreak
 \end{document}

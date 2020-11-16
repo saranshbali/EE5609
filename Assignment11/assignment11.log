@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  15 NOV 2020 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  16 NOV 2020 22:59
 entering extended mode
 **./assignment11.tex
 (assignment11.tex
@@ -1908,30 +1908,13 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 fd"
 File: utxsyc.fd 2000/12/15 v3.1
 )
-Overfull \hbox (215.00603pt too wide) in paragraph at lines 253--265
-[][] 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[0{C:/Users/SARANSH BALI/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+ [0{C:/Users/SARANSH BALI/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
 ]
-Overfull \hbox (212.833pt too wide) in paragraph at lines 269--278
-[][] 
- []
-
-
-Overfull \hbox (218.0054pt too wide) in paragraph at lines 280--295
-[][] 
- []
-
-
-Overfull \hbox (220.84526pt too wide) in paragraph at lines 297--309
-[][] 
- []
-
-
-Overfull \hbox (216.55309pt too wide) in paragraph at lines 311--319
+Overfull \hbox (297.10356pt too wide) in paragraph at lines 255--285
 [][] 
  []
 
@@ -1942,19 +1925,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.0}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.321 \myemptypage
+l.287 \myemptypage
                    [0]
-Overfull \hbox (219.17291pt too wide) in paragraph at lines 323--335
-[][] 
- []
-
-
-Overfull \hbox (216.03293pt too wide) in paragraph at lines 337--350
-[][] 
- []
-
-
-Overfull \hbox (224.75926pt too wide) in paragraph at lines 352--366
+Overfull \hbox (257.59148pt too wide) in paragraph at lines 289--336
 [][] 
  []
 
@@ -1965,9 +1938,9 @@ Package rerunfilecheck Info: File `assignment11.out' has not changed.
 (rerunfilecheck)             Checksum: 1210BCF5FEAE7A75A114051724EF25E7;85.
  ) 
 Here is how much of TeX's memory you used:
- 44889 strings out of 480236
- 1105873 string characters out of 2877194
- 1444172 words of memory out of 3000000
+ 44883 strings out of 480236
+ 1105783 string characters out of 2877194
+ 1450172 words of memory out of 3000000
  60569 multiletter control sequences out of 15000+200000
  617430 words of font info for 207 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1984,9 +1957,9 @@ H BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/User
 s/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><
 C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on assignment11.pdf (3 pages, 73883 bytes).
+Output written on assignment11.pdf (3 pages, 72691 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
