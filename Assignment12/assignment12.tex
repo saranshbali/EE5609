@@ -246,7 +246,7 @@
 \section{Problem}
 Let $\alpha_1$ = $(1, 0,-1, 2)$ and $\alpha_2$ = $(2,3, 1,1)$ and let $\vec{W}$ be the subspace of $\mathbb{R}^4$ spanned by $\alpha_1$ and $\alpha_2$. Which linear functionals $\vec{f}$ :
 \begin{align}
-f(x_1,x_2,x_3,x_4) = c_1x_1 + c_2x_2 + c_3x_3 + c_4x_4
+f(x_1,x_2,x_3,x_4) = c_1x_1 + c_2x_2 + c_3x_3 + c_4x_4 \label{3} 
 \end{align}
 are in the annihilator of $\vec{W}$?
 \section{Definitions}
@@ -273,23 +273,29 @@ are in the annihilator of $\vec{W}$?
 \section{Solution}
 \pagebreak
 \myemptypage
+\eqref{3}, can be expressed as
+\begin{align}
+& \vec{f}\brak{\vec{x}} = \vec{x}^T\vec{c} \\
+& \text{where} \quad \vec{x} = \myvec{x_1 \\ x_2 \\ x_3 \\ x_4} \quad \text{and} \quad \vec{c} = \myvec{c_1 \\ c_2 \\ c_3 \\ c_4}
+\end{align}
+ 
 Given two vectors 
 \begin{align}
-\alpha_1 = \brak{1,0,-1,2} \quad and \quad \alpha_2 = \brak{2,3,1,1}
+\alpha_1 = \myvec{1 \\ 0 \\ -1 \\ 2} \quad and \quad \alpha_2 = \myvec{2 \\ 3 \\ 1 \\ 1}
 \end{align}
 Since, $\alpha_1$ is not a scalar multiple of $\alpha_2$. Thus, $\alpha_1$ and $\alpha_2$ are linearly independent. Also, given $\alpha_1$ and $\alpha_2$ span $\vec{W}$, thus \{$\alpha_1$, $\alpha_2$\} form basis for $\vec{W}$. Hence, $\vec{W}$ has dimension 2.
 
 Now, a functional $\vec{f}$ is in the annihilator of $\vec{W}$ if and only if $\vec{f(\alpha_1)} = \vec{f(\alpha_2)} = 0$. We find such $\vec{f}$ by solving the system 
 \begin{align}
-& \vec{f(\alpha_1)} = 0 \\
-& \vec{f(\alpha_2)} = 0
+& \vec{f(\alpha_1)} = \myvec{1 & 0 & -1 & 2}\myvec{c_1 \\ c_2 \\ c_3 \\ c_4} = 0 \\
+& \vec{f(\alpha_2)} = \myvec{2 & 3 & 1 & 1}\myvec{c_1 \\ c_2 \\ c_3 \\ c_4} =  0
 \end{align}
 or equivalently
 \begin{align}
-& c_1 - c_3 + 2c_4 = 0 \\
-& 2c_1 + 3c_2 + c_3 + c_4 = 0
+& c_1 - c_3 + 2c_4 = 0  \label{4}\\
+& 2c_1 + 3c_2 + c_3 + c_4 = 0 \label{5}
 \end{align}
-Converting, above into system of equations, we have
+Converting, \eqref{4} and \eqref{5} into system of equations, we have
 \begin{align}
 \myvec{1 & 0 & -1 & 2 \\ 2 & 3 & 1 & 1}\myvec{c_1 \\ c_2 \\ c_3 \\ c_4} = 0 \label{1}
 \end{align} 
