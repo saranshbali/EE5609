@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  17 NOV 2020 14:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  17 NOV 2020 14:32
 entering extended mode
 **./assignment12.tex
 (assignment12.tex
@@ -1936,10 +1936,10 @@ Package rerunfilecheck Info: File `assignment12.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  44919 strings out of 480236
- 1106351 string characters out of 2877194
- 1442252 words of memory out of 3000000
+ 1106353 string characters out of 2877194
+ 1443252 words of memory out of 3000000
  60590 multiletter control sequences out of 15000+200000
- 617430 words of font info for 207 fonts, out of 3000000 for 9000
+ 617456 words of font info for 207 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
  82i,18n,124p,508b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.
@@ -1955,7 +1955,7 @@ sers/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmr8a.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on assignment12.pdf (2 pages, 73669 bytes).
+Output written on assignment12.pdf (2 pages, 73632 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
