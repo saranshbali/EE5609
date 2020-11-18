@@ -261,6 +261,7 @@ Let $\vec{V}$ be the vector space of $n\times n$ matrices over the field $\vec{F
 	& \qquad \qquad \qquad \qquad \qquad tr($\vec{A}$) =  $\vec{A_{11}}$ + $\vec{A_{22}}$ + ... + $\vec{A_{nn}}$\\
 	& \\
 	&  The trace function is a linear functional on the vector space $\vec{F^{m \times n}}$ because \\ 
+	& \\
 	&  \qquad \qquad \qquad \qquad \qquad tr(c$\vec{A}$ + $\vec{B}$) = $\sum_{i=1}^{n} c\vec{A_{ii}} + \vec{B_{ii}}$\\
 	& \\
 	& \qquad \qquad \qquad \qquad \qquad \qquad \qquad \quad  = c$\sum_{i=1}^{n} \vec{A_{ii}}$ + $\sum_{i=1}^{n} \vec{B_{ii}}$ \\
@@ -282,7 +283,7 @@ Linear Functional& thus, $f_\vec{B}$ is a linear functional on $\vec{V}$. In oth
         & \\
         &\qquad \qquad \qquad \qquad \qquad $f_{\vec{B}}(c\vec{A_1} + \vec{A_2})$ = trace($\vec{B^T(cA_1 + A_2)}$)\\
         & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad = trace(c$\vec{B^T(A_1)} + \vec{B^T(A_2)}$) \\
-        & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad = c.trace($\vec{B^T(A_1)}$ + trace($\vec{B^T(A_2)}$))\\ 
+        & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad = c.trace($\vec{B^T(A_1)})$ + trace($\vec{B^T(A_2)}$)\\ 
         & \qquad \qquad \qquad \qquad \qquad \qquad \qquad \qquad = c.$f_\vec{B(A_1)}$ + $f_\vec{B(A_2)}$ \\
         & \\
         & Hence, it follows that $f_\vec{B}$ is a linear functional on $\vec{V}$. \\

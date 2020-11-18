@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  18 NOV 2020 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  18 NOV 2020 23:33
 entering extended mode
 **./assignment13.tex
 (assignment13.tex
@@ -1908,7 +1908,7 @@ LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
 fd"
 File: utxsyc.fd 2000/12/15 v3.1
 )
-Overfull \hbox (290.68944pt too wide) in paragraph at lines 250--272
+Overfull \hbox (290.68944pt too wide) in paragraph at lines 250--273
 [][] 
  []
 
@@ -1916,7 +1916,7 @@ Overfull \hbox (290.68944pt too wide) in paragraph at lines 250--272
 
 
 ]
-Overfull \hbox (279.56776pt too wide) in paragraph at lines 277--292
+Overfull \hbox (279.56776pt too wide) in paragraph at lines 278--293
 [][] 
  []
 
@@ -1944,7 +1944,7 @@ al/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/SARANSH BALI/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/SARANSH B
 ALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/SA
 RANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on assignment13.pdf (2 pages, 62417 bytes).
+Output written on assignment13.pdf (2 pages, 62434 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
