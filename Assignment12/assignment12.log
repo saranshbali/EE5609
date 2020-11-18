@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  17 NOV 2020 17:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  18 NOV 2020 16:27
 entering extended mode
 **./assignment12.tex
 (assignment12.tex
@@ -1928,18 +1928,14 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 286.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [1]
-(assignment12.aux)
+ [1] (assignment12.aux)
 Package rerunfilecheck Info: File `assignment12.out' has not changed.
 (rerunfilecheck)             Checksum: 82EFC5889F3A8893294AE6F1B1569288;131.
  ) 
 Here is how much of TeX's memory you used:
- 44924 strings out of 480236
- 1106392 string characters out of 2877194
- 1453373 words of memory out of 3000000
+ 44923 strings out of 480236
+ 1106377 string characters out of 2877194
+ 1449371 words of memory out of 3000000
  60593 multiletter control sequences out of 15000+200000
  617456 words of font info for 207 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1957,9 +1953,9 @@ sers/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmr8a.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 times/utmri8a.pfb>
-Output written on assignment12.pdf (2 pages, 75274 bytes).
+Output written on assignment12.pdf (2 pages, 74736 bytes).
 PDF statistics:
- 122 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 22 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
