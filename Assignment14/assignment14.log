@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  20 NOV 2020 16:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.18)  20 NOV 2020 18:19
 entering extended mode
 **./assignment14.tex
 (assignment14.tex
@@ -1919,7 +1919,15 @@ Overfull \hbox (311.0331pt too wide) in paragraph at lines 262--289
  []
 
 
-Overfull \hbox (305.3655pt too wide) in paragraph at lines 292--317
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.0}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.291 \myemptypage
+                   [0]
+Overfull \hbox (305.3655pt too wide) in paragraph at lines 294--322
 [][] 
  []
 
@@ -1930,13 +1938,13 @@ Package rerunfilecheck Info: File `assignment14.out' has not changed.
 (rerunfilecheck)             Checksum: E576D2429F0EDBF0FFB913EBE6EF59AE;146.
  ) 
 Here is how much of TeX's memory you used:
- 44841 strings out of 480236
- 1105227 string characters out of 2877194
- 1445211 words of memory out of 3000000
- 60529 multiletter control sequences out of 15000+200000
+ 44842 strings out of 480236
+ 1105230 string characters out of 2877194
+ 1445289 words of memory out of 3000000
+ 60530 multiletter control sequences out of 15000+200000
  599940 words of font info for 159 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 82i,16n,124p,508b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 82i,18n,124p,508b,1012s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.
 enc}<C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/public/txf
 onts/rtxmi.pfb><C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1
@@ -1949,9 +1957,9 @@ H BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/User
 s/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><
 C:/Users/SARANSH BALI/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on assignment14.pdf (2 pages, 73465 bytes).
+Output written on assignment14.pdf (3 pages, 74911 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

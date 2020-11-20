@@ -282,11 +282,13 @@ Show that $\vec{D}$ is a linear operator on $\vec{F}[x]$ and find its null space
 	& Linear map because \\
 	& \qquad \qquad \qquad $\vec{D}(cf+g)(x) = \brak{c.c_1 + c_1^{'}} + 2\brak{c.c_2 + c_2^{'}}x + ... + k\brak{c.c_k + c_k^{,}}x^{k-1}$ \\
     & \qquad \qquad \qquad \qquad \qquad \qquad = $c.c_1 + 2c.c_2x + ... + kc.c_kx^{k-1} + c_1^{'} + 2c_2^{'}x + ... + kc_k^{'}x^{k-1}$ \\	
-    & \qquad \qquad \qquad \qquad \qquad \qquad = c$\vec{D}f(x) + \vec{D}g(x)$\\
+    & \qquad \qquad \qquad \qquad \qquad \qquad = c$\vec{D}f(x) + \vec{D}g(x)$ \label{2}\\
     &\\
     \hline
 \end{tabular}
 \end{table}
+\pagebreak
+\myemptypage
 \section{Solution}
 \begin{table}[hp]
 	\begin{tabular}{|l|l|}
@@ -295,12 +297,15 @@ Show that $\vec{D}$ is a linear operator on $\vec{F}[x]$ and find its null space
 		& From \eqref{1}, clearly $\vec{D}$ is a function from $\vec{F[x]}$ to $\vec{F[x]}$. We must show that $\vec{D}$ is linear.\\
 		& Clearly $\vec{D}$ is a Differentiation Transformation, and hence is linear. In other words \\
 		& \\
-		& \qquad \qquad \qquad $\vec{D}\brak{\sum_{i=0}^{n} c.c_ix^{i} + \sum_{i=0}^{n}c_i^{'}x^{i}} = \vec{D}\brak{\sum_{i=0}^{n}(c.c_i + c_i^{'})x^{i}}$\\
-		& \qquad \qquad \qquad \qquad \qquad \qquad \qquad \quad \quad \space = $\sum_{i=0}^{n} i\brak{c.c_i + c_i^{'}}x^{i-1}$ \\
-		& \qquad \qquad \qquad \qquad \qquad \qquad \qquad \quad \quad \space = c$\sum_{i=0}^{n}ic_ix^{i-1} + \sum_{i=0}^{n}ic_i^{'}x^{i-1}$\\
-		& \qquad \qquad \qquad \qquad \qquad \qquad \qquad \quad \quad \space = c$\vec{D}\brak{\sum_{i=0}^{n}c_ix^{i}} + \vec{D}\brak{\sum_{i=0}^{n}c_i^{'}x^{i}}$ \\
+		& Let $\vec{m} = \myvec{c_0 \\ c_1 \\ \vdots \\c_n}$, $\vec{n} = \myvec{c_0^{'} \\ c_1^{'} \\ \vdots \\ c_n^{'}}$ and $\alpha$ be a scalar. Then\\
+		& \qquad \qquad  $\vec{D}\brak{\vec{x^T(\alpha m + n)}} = \vec{y^{T}p}$, where $\vec{p} = \myvec{\alpha c_1 + c_1 ^{'} \\ 2\brak{\alpha c_2 + c_2 ^{'}} \\ \vdots \\ n\brak{\alpha c_n + c_n ^{'}}}$  and $\vec{\alpha m + n} = \myvec{\alpha c_0 + c_0^{'} \\ \alpha c_1 + c_1^{'} \\ \vdots \\ \alpha c_n + c_n^{'} }$\\
+		& \qquad \qquad  $\vec{D}\brak{\vec{x^T(\alpha m + n)}}$ = $\vec{y^{T}}(\vec{m^{'} + n^{'}})$, where $\vec{m^{'}} = \alpha\myvec{c_1 \\ 2c_2 \\ \vdots \\ nc_n}$ and $\vec{n^{'}} = \myvec{\ c_1^{'} \\ 2c_2^{'} \\ \vdots \\ nc_n^{'}}$\\
+		& Thus,\\
+		& \qquad \qquad $\vec{D}\brak{\vec{x^T(\alpha m + n)}}$ = $\vec{y^{T}m^{'}}$ + $\vec{y^{T}n^{'}}$ \\
+        & Now,\\	
+		& \qquad \qquad $\vec{D}\brak{\vec{x^T(\alpha m + n)}}$ = $\alpha\vec{D}\brak{\vec{x^{T}m}} + \vec{D}\brak{\vec{x^{T}n}} $\\
+		& \\
 		& Hence, $\vec{D}$ is a linear transformation.\\
-		
 		& \\
 		\hline
 		\multirow{3}{*}{Null Space of $\vec{D}$} & \\
